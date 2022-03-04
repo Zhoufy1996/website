@@ -5,8 +5,8 @@ import type { NextPage } from 'next';
 import { useRouter } from 'next/router';
 
 const routes = [
-  'about',
-  'poiss',
+  'qrcode',
+  'esjdownloader',
 ];
 
 const GridContainer = styled(Grid)(({ theme }) => ({
