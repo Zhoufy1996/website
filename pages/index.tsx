@@ -7,6 +7,7 @@ import { useRouter } from 'next/router';
 const routes = [
   'qrcode',
   'esjdownloader',
+  'code',
 ];
 
 const GridContainer = styled(Grid)(({ theme }) => ({
