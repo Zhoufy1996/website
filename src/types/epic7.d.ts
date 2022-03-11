@@ -15,10 +15,12 @@ export interface EquipmentPropertyItem {
   oneEnhancedValueArray: OneEnhancedValue[]
 }
 
+export type EquipmentQuality = 'legend' | 'hero';
+
 export interface EquipmentProperty {
   items: EquipmentPropertyItem[]
-  improvedLevel: number
-  quality: 'legend' | 'epic'
+  enhancedLevel: number
+  quality: EquipmentQuality
 }
 
 export interface PersonTemplate {
@@ -26,3 +28,5 @@ export interface PersonTemplate {
   defense: number
   life: number
 }
+
+export type PersonTemplateCode = keyof PersonTemplate;

@@ -81,7 +81,7 @@ export const enhanceOnce = (equipmentProperty: EquipmentProperty): EquipmentProp
   };
 
   const shouldAddOneProperty = () => {
-    return equipmentProperty.quality === 'epic' && equipmentProperty.improvedLevel >= 9 && equipmentProperty.improvedLevel < 12;
+    return equipmentProperty.quality === 'hero' && equipmentProperty.enhancedLevel >= 9 && equipmentProperty.enhancedLevel < 12;
   };
 
   let enhanceItem: EquipmentPropertyItem;
@@ -102,7 +102,7 @@ export const enhanceOnce = (equipmentProperty: EquipmentProperty): EquipmentProp
 
   return {
     ...equipmentProperty,
-    improvedLevel: equipmentProperty.improvedLevel + 3,
+    enhancedLevel: equipmentProperty.enhancedLevel + 3,
     items: equipmentProperty.items.map((equipmentPropertyItem) => {
       if (equipmentPropertyItem.code === enhanceItem.code) {
         return enhanceItemOnce(equipmentPropertyItem);
@@ -116,7 +116,7 @@ export const enhanceOnce = (equipmentProperty: EquipmentProperty): EquipmentProp
 // 强化到15
 export const enhanceMax = (equipmentProperty: EquipmentProperty): EquipmentProperty => {
   let temp = equipmentProperty;
-  while (temp.improvedLevel < 15) {
+  while (temp.enhancedLevel < 15) {
     temp = enhanceOnce(temp);
   }
 
