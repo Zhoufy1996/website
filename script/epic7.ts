@@ -4,7 +4,7 @@
  'speed' | 'crit_rate' | 'crit_injury' |
  'effect_hit' | 'effect_resistance';
 
-type Part = 'arms' | 'helmet' | 'clothing' | 'ring' | 'necklace' | 'shoe';
+type Part = 'arms' | 'helmet' | 'armor' | 'ring' | 'necklace' | 'shoe';
 
 interface ProbabilityItem {
   part: Part;

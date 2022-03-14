@@ -1,11 +1,45 @@
 import { MenuItem, TextField, Typography } from '@mui/material';
+import { useMemo } from 'react';
 import { useRecoilValue, useSetRecoilState } from 'recoil';
-import { equipmentEnhancedLevelState, equipmentPropertyState, equipmentQualityState } from '../../store/epic7/equipment';
-import { EquipmentQuality, PropertyCode } from '../../types/epic7';
+import {
+  equipmentEnhancedLevelState,
+  equipmentPrimaryPropertyState, equipmentPropertyState, equipmentQualityState, equipmentTypeState,
+} from '../../store/epic7/equipment';
+import { EquipmentQuality, EquipmentType, PropertyCode } from '../../types/epic7';
 
 const equipmentQualityOptions: Record<EquipmentQuality, string> = {
   legend: '传说',
   hero: '英雄',
+};
+
+const equipmentTypeOptions: Record<EquipmentType, {
+  label: string;
+  primaryProperty: PropertyCode[]
+}> = {
+  arms: {
+    label: '武器',
+    primaryProperty: ['attack'],
+  },
+  helmet: {
+    label: '头盔',
+    primaryProperty: ['defense'],
+  },
+  armor: {
+    label: '衣服',
+    primaryProperty: ['life'],
+  },
+  ring: {
+    label: '戒指',
+    primaryProperty: ['attack', 'attack_percent', 'defense', 'defense_percent', 'life', 'life_percent', 'crit_rate', 'crit_injury'],
+  },
+  necklace: {
+    label: '项链',
+    primaryProperty: ['attack', 'attack_percent', 'defense', 'defense_percent', 'life', 'life_percent', 'effect_hit', 'effect_resistance'],
+  },
+  shoe: {
+    label: '鞋子',
+    primaryProperty: ['attack', 'attack_percent', 'defense', 'defense_percent', 'life', 'life_percent', 'speed'],
+  },
 };
 
 const equipmentPropertyOptions: Record<PropertyCode, {
@@ -68,6 +102,21 @@ const Equipment = () => {
   const equipmentProperty = useRecoilValue(equipmentPropertyState);
   const setEquipmentProperty = useSetRecoilState(equipmentPropertyState);
 
+  const equipmentType = useRecoilValue(equipmentTypeState);
+  const setEquipmentType = useSetRecoilState(equipmentTypeState);
+
+  const equipmentPrimaryProperty = useRecoilValue(equipmentPrimaryPropertyState);
+  const setEquipmentPrimaryProperty = useSetRecoilState(equipmentPrimaryPropertyState);
+
+  const primarySelectOptions = useMemo(() => {
+    return equipmentTypeOptions[equipmentType].primaryProperty.map((code) => {
+      return {
+        code,
+        label: equipmentPropertyOptions[code].label,
+      };
+    });
+  }, [equipmentType]);
+
   return (
     <div>
       <Typography variant="h6">装备</Typography>
@@ -101,6 +150,46 @@ const Equipment = () => {
                 </MenuItem>
               );
             })
+        }
+      </TextField>
+      <TextField
+        id="type"
+        label="类型"
+        select
+        value={equipmentType}
+        onChange={(e) => {
+          const type = e.target.value as EquipmentType;
+          setEquipmentType(type);
+          setEquipmentPrimaryProperty(equipmentTypeOptions[type].primaryProperty[0]);
+        }}
+      >
+        {
+            Object.entries(equipmentTypeOptions).map(([code, label]) => {
+              return (
+                <MenuItem value={code} key={code}>
+                  {label}
+                </MenuItem>
+              );
+            })
+        }
+      </TextField>
+      <TextField
+        id="primaryProperty"
+        label="主属性"
+        select
+        value={equipmentPrimaryProperty}
+        onChange={(e) => {
+          setEquipmentPrimaryProperty(e.target.value as PropertyCode);
+        }}
+      >
+        {
+          primarySelectOptions.map((options) => {
+            return (
+              <MenuItem value={options.code} key={options.code}>
+                {options.label}
+              </MenuItem>
+            );
+          })
         }
       </TextField>
       {Object.entries(equipmentPropertyOptions)

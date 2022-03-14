@@ -30,3 +30,5 @@ export interface PersonTemplate {
 }
 
 export type PersonTemplateCode = keyof PersonTemplate;
+
+type EquipmentType = 'arms' | 'helmet' | 'armor' | 'ring' | 'necklace' | 'shoe';

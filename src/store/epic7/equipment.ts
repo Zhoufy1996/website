@@ -1,7 +1,7 @@
 import { atom, selector } from 'recoil';
 import {
   Equipment,
-  EquipmentQuality, PersonTemplate, PropertyCode,
+  EquipmentQuality, EquipmentType, PersonTemplate, PropertyCode,
 } from '../../types/epic7';
 
 export const personTemplateState = atom<PersonTemplate>({
@@ -23,6 +23,11 @@ export const equipmentEnhancedLevelState = atom<number>({
   default: 0,
 });
 
+export const equipmentTypeState = atom<EquipmentType>({
+  key: 'equipmentTypeState',
+  default: 'arms',
+});
+
 export const equipmentPropertyState = atom<Record<PropertyCode, number>>({
   key: 'equipmentPropertyState',
   default: {
@@ -38,6 +43,11 @@ export const equipmentPropertyState = atom<Record<PropertyCode, number>>({
     effect_hit: 0,
     effect_resistance: 0,
   },
+});
+
+export const equipmentPrimaryPropertyState = atom<PropertyCode>({
+  key: 'equipmentPrimaryPropertyState',
+  default: 'attack',
 });
 
 export const equipmentState = selector<Equipment>({

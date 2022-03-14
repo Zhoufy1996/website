@@ -1,8 +1,37 @@
 import {
-  Equipment, EquipmentPropertyItem, PersonTemplate, PropertyCode,
+  Equipment, EquipmentPropertyItem, OneEnhancedValue, PersonTemplate, PropertyCode,
 } from '../types/epic7';
-import { enhancedProbabilityObj, propertyArray } from './epic7data';
 import { randomSelect } from './helper';
+
+type EnhancedProbabilityObj = Record<PropertyCode, OneEnhancedValue[]>;
+
+export const propertyArray: PropertyCode[] = [
+  'attack',
+  'attack_percent',
+  'defense',
+  'defense_percent',
+  'life',
+  'life_percent',
+  'speed',
+  'crit_rate',
+  'crit_injury',
+  'effect_hit',
+  'effect_resistance',
+];
+
+export const enhancedProbabilityOptions: EnhancedProbabilityObj = {
+  attack: [],
+  attack_percent: [],
+  defense: [],
+  defense_percent: [],
+  life: [],
+  life_percent: [],
+  speed: [],
+  crit_rate: [],
+  crit_injury: [],
+  effect_hit: [],
+  effect_resistance: [],
+};
 
 interface CalcEqipmentScore {
   (props: {
@@ -53,7 +82,7 @@ export const enhanceOnce = (equipmentProperty: Equipment): Equipment => {
     return {
       value: 0,
       code: enhanceCode,
-      oneEnhancedValueArray: enhancedProbabilityObj[enhanceCode],
+      oneEnhancedValueArray: enhancedProbabilityOptions[enhanceCode],
     };
   };
 
