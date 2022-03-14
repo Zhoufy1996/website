@@ -6,6 +6,9 @@
     "airbnb-typescript",
     "plugin:react/jsx-runtime"
   ],
+  "plugins": [
+    "react-hooks"
+  ],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
@@ -39,6 +42,8 @@
     "arrow-body-style": "off",
     "no-eval": "off",
     "no-restricted-syntax": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "react-hooks/rules-of-hooks": "error", // 检查 Hook 的规则
+    "react-hooks/exhaustive-deps": "warn" // 检查 effect 的依赖
   }
 }

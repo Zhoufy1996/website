@@ -1,11 +1,12 @@
 import {
-  EquipmentProperty, EquipmentPropertyItem, PersonTemplate, PropertyCode,
+  Equipment, EquipmentPropertyItem, PersonTemplate, PropertyCode,
 } from '../types/epic7';
 import { enhancedProbabilityObj, propertyArray } from './epic7data';
+import { randomSelect } from './helper';
 
 interface CalcEqipmentScore {
   (props: {
-    equipmentProperty: EquipmentProperty;
+    equipmentProperty: Equipment;
     personTemplate: PersonTemplate
   }): number
 }
@@ -32,26 +33,21 @@ export const calcEqipmentScore: CalcEqipmentScore = ({ equipmentProperty, person
     effect_resistance: (value) => value,
   };
 
-  return equipmentProperty.items.map((property) => {
+  return equipmentProperty.properties.map((property) => {
     return scoreCalcObj[property.code](property.value);
   }).reduce((acc, cur) => {
     return acc + cur;
   }, 0);
 };
 
-// 数组中随机选择一项
-const randomSelect = <T>(items: T[]): T => {
-  return items[Math.floor(Math.random() * items.length)];
-};
-
 // 强化一次装备属性
-export const enhanceOnce = (equipmentProperty: EquipmentProperty): EquipmentProperty => {
+export const enhanceOnce = (equipmentProperty: Equipment): Equipment => {
   const getEnhanceItem = () :EquipmentPropertyItem => {
-    return randomSelect(equipmentProperty.items);
+    return randomSelect(equipmentProperty.properties);
   };
 
   const getRestEnhanceItem = (): EquipmentPropertyItem => {
-    const existPropertyCode = equipmentProperty.items.map((item) => item.code);
+    const existPropertyCode = equipmentProperty.properties.map((item) => item.code);
     const notExistPropertyCode = propertyArray.filter((code) => !existPropertyCode.includes(code));
     const enhanceCode = randomSelect(notExistPropertyCode);
     return {
@@ -91,8 +87,8 @@ export const enhanceOnce = (equipmentProperty: EquipmentProperty): EquipmentProp
 
     return {
       ...equipmentProperty,
-      items: [
-        ...equipmentProperty.items,
+      properties: [
+        ...equipmentProperty.properties,
         enhanceItemOnce(enhanceItem),
       ],
     };
@@ -103,7 +99,7 @@ export const enhanceOnce = (equipmentProperty: EquipmentProperty): EquipmentProp
   return {
     ...equipmentProperty,
     enhancedLevel: equipmentProperty.enhancedLevel + 3,
-    items: equipmentProperty.items.map((equipmentPropertyItem) => {
+    properties: equipmentProperty.properties.map((equipmentPropertyItem) => {
       if (equipmentPropertyItem.code === enhanceItem.code) {
         return enhanceItemOnce(equipmentPropertyItem);
       }
@@ -114,7 +110,7 @@ export const enhanceOnce = (equipmentProperty: EquipmentProperty): EquipmentProp
 };
 
 // 强化到15
-export const enhanceMax = (equipmentProperty: EquipmentProperty): EquipmentProperty => {
+export const enhanceMax = (equipmentProperty: Equipment): Equipment => {
   let temp = equipmentProperty;
   while (temp.enhancedLevel < 15) {
     temp = enhanceOnce(temp);

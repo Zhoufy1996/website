@@ -17,8 +17,8 @@ export interface EquipmentPropertyItem {
 
 export type EquipmentQuality = 'legend' | 'hero';
 
-export interface EquipmentProperty {
-  items: EquipmentPropertyItem[]
+export interface Equipment {
+  properties: EquipmentPropertyItem[]
   enhancedLevel: number
   quality: EquipmentQuality
 }
