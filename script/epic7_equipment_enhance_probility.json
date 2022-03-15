@@ -1,0 +1,6491 @@
+[
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 0.579,
+        "value": 37
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.678,
+        "value": 36
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.305,
+        "value": 34
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 38
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.773,
+        "value": 37
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 7.149,
+        "value": 35
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 39
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.773,
+        "value": 38
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 7.149,
+        "value": 36
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 40
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.773,
+        "value": 39
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 7.149,
+        "value": 37
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 41
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.773,
+        "value": 40
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 7.149,
+        "value": 38
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 42
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.773,
+        "value": 41
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 7.149,
+        "value": 39
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 43
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.773,
+        "value": 42
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 7.149,
+        "value": 40
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 44
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.773,
+        "value": 43
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 7.149,
+        "value": 41
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 45
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.773,
+        "value": 44
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 7.149,
+        "value": 42
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 46
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.773,
+        "value": 45
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 7.149,
+        "value": 43
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 47
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.773,
+        "value": 46
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 7.149,
+        "value": 44
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 48
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.773,
+        "value": 47
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 7.149,
+        "value": 45
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 49
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.773,
+        "value": 48
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 7.149,
+        "value": 46
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 50
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.773,
+        "value": 49
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 7.149,
+        "value": 47
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 51
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 5.27,
+        "value": 50
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 0.758,
+        "value": 48
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 6.435,
+        "value": 52
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "probability": 2.896,
+        "value": 53
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 9
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 9
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense",
+        "probability": 12.484,
+        "value": 32
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense",
+        "probability": 8.005,
+        "value": 30
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "defense",
+        "probability": 2.909,
+        "value": 28
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense",
+        "probability": 12.484,
+        "value": 33
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense",
+        "probability": 13.123,
+        "value": 31
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "defense",
+        "probability": 13.85,
+        "value": 29
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense",
+        "probability": 12.484,
+        "value": 34
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense",
+        "probability": 13.123,
+        "value": 32
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "defense",
+        "probability": 13.85,
+        "value": 30
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense",
+        "probability": 12.484,
+        "value": 35
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense",
+        "probability": 13.123,
+        "value": 33
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "defense",
+        "probability": 13.85,
+        "value": 31
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense",
+        "probability": 12.484,
+        "value": 36
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense",
+        "probability": 13.123,
+        "value": 34
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "defense",
+        "probability": 13.85,
+        "value": 32
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense",
+        "probability": 12.484,
+        "value": 37
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense",
+        "probability": 13.123,
+        "value": 35
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "defense",
+        "probability": 13.85,
+        "value": 33
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense",
+        "probability": 12.484,
+        "value": 38
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense",
+        "probability": 13.123,
+        "value": 36
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "defense",
+        "probability": 13.85,
+        "value": 34
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense",
+        "probability": 12.484,
+        "value": 39
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense",
+        "probability": 13.123,
+        "value": 37
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "defense",
+        "probability": 13.85,
+        "value": 35
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense",
+        "probability": 0.125,
+        "value": 40
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense",
+        "probability": 0.131,
+        "value": 38
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "defense",
+        "probability": 0.139,
+        "value": 36
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 9
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 9
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1,
+        "value": 178
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 0.887,
+        "value": 169
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 0.784,
+        "value": 160
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 179
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 170
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 161
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 180
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 171
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 162
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 181
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 172
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 163
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 182
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 173
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 164
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 183
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 174
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 165
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 184
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 175
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 166
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 185
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 176
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 167
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 186
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 177
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 168
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 187
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 178
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 169
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 188
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 179
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 170
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 189
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 180
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 171
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 190
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 181
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 172
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 191
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 182
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 173
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 192
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 183
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 174
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 193
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 184
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 175
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 194
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 185
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 176
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 195
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 186
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 177
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 196
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 187
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 178
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 197
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 188
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 179
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 198
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 189
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 180
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 199
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 190
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 181
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 200
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 191
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 182
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 201
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 192
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 183
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 202
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 193
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 184
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 203
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 194
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 185
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 204
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 195
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 186
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 205
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 196
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 187
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 206
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 197
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 188
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 207
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 198
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 189
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 208
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 199
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 190
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 209
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 200
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 191
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 210
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 201
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 192
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 211
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 202
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 193
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 212
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 203
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 194
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 213
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 204
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 195
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 214
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 205
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 196
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 215
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 206
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 197
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 216
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 207
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 198
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 217
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 208
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 199
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 218
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 209
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 200
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 219
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 210
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 201
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 220
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 211
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 202
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 221
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 212
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 203
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 222
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 213
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 204
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 223
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 214
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 2.178,
+        "value": 205
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 224
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 215
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 1.22,
+        "value": 206
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 225
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 216
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 226
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 2.064,
+        "value": 217
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 227
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 0.062,
+        "value": 218
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1.96,
+        "value": 228
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "probability": 1,
+        "value": 229
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 9
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 9
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "speed",
+        "probability": 49.751,
+        "value": 3
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "speed",
+        "probability": 8.333,
+        "value": 2
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "speed",
+        "probability": 17.033,
+        "value": 2
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "speed",
+        "probability": 49.751,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "speed",
+        "probability": 52.083,
+        "value": 3
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "speed",
+        "probability": 54.945,
+        "value": 3
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "speed",
+        "probability": 0.498,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "speed",
+        "probability": 39.583,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "speed",
+        "probability": 28.022,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 9
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 9
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 9
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 9
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "crit_rate",
+        "probability": 25,
+        "value": 3
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "crit_rate",
+        "probability": 25,
+        "value": 3
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "crit_rate",
+        "probability": 25,
+        "value": 3
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "crit_rate",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "crit_rate",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "crit_rate",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "crit_rate",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "crit_rate",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "crit_rate",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "crit_rate",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "crit_rate",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "crit_rate",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "rare",
+        "level": "88",
+        "code": "crit_injury",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 6.103,
+        "value": 33
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 3.718,
+        "value": 31
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 1.145,
+        "value": 29
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.353,
+        "value": 34
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.746,
+        "value": 32
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 8.177,
+        "value": 30
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.353,
+        "value": 35
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.746,
+        "value": 33
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 8.177,
+        "value": 31
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.353,
+        "value": 36
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.746,
+        "value": 34
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 8.177,
+        "value": 32
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.353,
+        "value": 37
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.746,
+        "value": 35
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 8.177,
+        "value": 33
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.353,
+        "value": 38
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.746,
+        "value": 36
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 8.177,
+        "value": 34
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.353,
+        "value": 39
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.746,
+        "value": 37
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 8.177,
+        "value": 35
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.353,
+        "value": 40
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.746,
+        "value": 38
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 8.177,
+        "value": 36
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.353,
+        "value": 41
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.746,
+        "value": 39
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 8.177,
+        "value": 37
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.353,
+        "value": 42
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.746,
+        "value": 40
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 8.177,
+        "value": 38
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.353,
+        "value": 43
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.746,
+        "value": 41
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 8.177,
+        "value": 39
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.353,
+        "value": 44
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.746,
+        "value": 42
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 8.177,
+        "value": 40
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.353,
+        "value": 45
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 7.746,
+        "value": 43
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 8.177,
+        "value": 41
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 5.662,
+        "value": 46
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 3.331,
+        "value": 44
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack",
+        "probability": 0.736,
+        "value": 42
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "attack_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 14.265,
+        "value": 28
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 6.147,
+        "value": 26
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 12.816,
+        "value": 25
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 14.265,
+        "value": 29
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 14.993,
+        "value": 27
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 15.823,
+        "value": 26
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 14.265,
+        "value": 30
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 14.993,
+        "value": 28
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 15.823,
+        "value": 27
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 14.265,
+        "value": 31
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 14.993,
+        "value": 29
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 15.823,
+        "value": 28
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 14.265,
+        "value": 32
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 14.993,
+        "value": 30
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 15.823,
+        "value": 29
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 14.265,
+        "value": 33
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 14.993,
+        "value": 31
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 15.823,
+        "value": 30
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 14.265,
+        "value": 34
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 14.993,
+        "value": 32
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 8.07,
+        "value": 31
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 0.143,
+        "value": 35
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 3.898,
+        "value": 33
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "defense",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "defense_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 1.133,
+        "value": 157
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 0.889,
+        "value": 149
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 0.642,
+        "value": 141
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 158
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 150
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 142
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 159
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 151
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 143
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 160
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 152
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 144
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 161
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 153
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 145
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 162
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 154
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 146
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 163
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 155
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 147
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 164
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 156
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 148
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 165
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 157
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 149
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 166
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 158
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 150
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 167
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 159
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 151
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 168
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 160
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 152
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 169
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 161
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 153
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 170
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 162
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 154
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 171
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 163
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 155
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 172
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 164
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 156
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 173
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 165
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 157
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 174
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 166
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 158
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 175
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 167
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 159
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 176
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 168
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 160
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 177
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 169
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 161
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 178
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 170
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 162
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 179
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 171
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 163
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 180
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 172
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 164
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 181
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 173
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 165
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 182
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 174
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 166
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 183
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 175
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 167
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 184
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 176
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 168
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 185
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 177
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 169
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 186
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 178
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 170
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 187
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 179
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 171
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 188
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 180
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 172
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 189
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 181
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 173
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 190
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 182
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 174
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 191
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 183
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 175
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 192
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 184
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 176
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 193
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 185
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 177
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 194
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 186
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 178
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 195
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 187
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 179
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 196
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 188
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 180
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 197
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 189
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.468,
+        "value": 181
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 198
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 190
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 0.642,
+        "value": 182
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 199
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.339,
+        "value": 191
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 200
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 0.889,
+        "value": 192
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 2.221,
+        "value": 201
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "probability": 1.133,
+        "value": 202
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "life_percent",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "speed",
+        "probability": 33.223,
+        "value": 2
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "speed",
+        "probability": 3.833,
+        "value": 1
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "speed",
+        "probability": 7.721,
+        "value": 1
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "speed",
+        "probability": 33.223,
+        "value": 3
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "speed",
+        "probability": 34.843,
+        "value": 2
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "speed",
+        "probability": 36.765,
+        "value": 2
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "speed",
+        "probability": 33.223,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "speed",
+        "probability": 34.843,
+        "value": 3
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "speed",
+        "probability": 36.765,
+        "value": 3
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "speed",
+        "probability": 0.332,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "speed",
+        "probability": 26.481,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "speed",
+        "probability": 18.75,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "effect_hit",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 8
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "probability": 20,
+        "value": 7
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 3
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 3
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 3
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "72-85",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 4.889,
+        "value": 28
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 8.955,
+        "value": 27
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 3.944,
+        "value": 25
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 8.576,
+        "value": 29
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.027,
+        "value": 28
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.527,
+        "value": 26
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 8.576,
+        "value": 30
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.027,
+        "value": 29
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.527,
+        "value": 27
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 8.576,
+        "value": 31
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.027,
+        "value": 30
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.527,
+        "value": 28
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 8.576,
+        "value": 32
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.027,
+        "value": 31
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.527,
+        "value": 29
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 8.576,
+        "value": 33
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.027,
+        "value": 32
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.527,
+        "value": 30
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 8.576,
+        "value": 34
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.027,
+        "value": 33
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.527,
+        "value": 31
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 8.576,
+        "value": 35
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.027,
+        "value": 34
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.527,
+        "value": 32
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 8.576,
+        "value": 36
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.027,
+        "value": 35
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.527,
+        "value": 33
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 8.576,
+        "value": 37
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.027,
+        "value": 36
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.527,
+        "value": 34
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 8.576,
+        "value": 38
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.027,
+        "value": 37
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 9.527,
+        "value": 35
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 8.576,
+        "value": 39
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 0.776,
+        "value": 38
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 0.781,
+        "value": 36
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 0.772,
+        "value": 40
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack_percent",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack_percent",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack_percent",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack_percent",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack_percent",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack_percent",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack_percent",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack_percent",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack_percent",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack_percent",
+        "probability": 25,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack_percent",
+        "probability": 25,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "attack_percent",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 16.639,
+        "value": 24
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 3.671,
+        "value": 22
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 7.565,
+        "value": 21
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 16.639,
+        "value": 25
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 17.483,
+        "value": 23
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 18.45,
+        "value": 22
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 16.639,
+        "value": 26
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 17.483,
+        "value": 24
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 18.45,
+        "value": 23
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 16.639,
+        "value": 27
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 17.483,
+        "value": 25
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 18.45,
+        "value": 24
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 16.639,
+        "value": 28
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 17.483,
+        "value": 26
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 18.45,
+        "value": 25
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 16.639,
+        "value": 29
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 17.483,
+        "value": 27
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 18.45,
+        "value": 26
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 0.166,
+        "value": 30
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 8.916,
+        "value": 28
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "defense",
+        "probability": 0.185,
+        "value": 27
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "defense_percent",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "defense_percent",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "defense_percent",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "defense_percent",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "defense_percent",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "defense_percent",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "defense_percent",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "defense_percent",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "defense_percent",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "defense_percent",
+        "probability": 25,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "defense_percent",
+        "probability": 25,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "defense_percent",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 1.307,
+        "value": 136
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 0.904,
+        "value": 129
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 0.456,
+        "value": 122
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 137
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 130
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 123
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 138
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 131
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 124
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 139
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 132
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 125
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 140
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 133
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 126
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 141
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 134
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 127
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 142
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 135
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 128
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 143
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 136
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 129
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 144
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 137
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 130
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 145
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 138
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 131
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 146
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 139
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 132
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 147
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 140
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 133
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 148
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 141
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 134
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 149
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 142
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 135
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 150
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 143
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 136
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 151
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 144
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 137
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 152
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 145
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 138
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 153
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 146
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 139
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 154
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 147
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 140
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 155
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 148
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 141
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 156
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 149
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 142
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 157
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 150
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 143
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 158
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 151
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 144
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 159
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 152
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 145
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 160
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 153
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 146
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 161
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 154
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 147
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 162
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 155
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 148
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 163
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 156
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 149
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 164
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 157
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 150
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 165
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 158
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 151
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 166
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 159
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 152
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 167
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 160
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 153
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 168
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 161
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 154
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 169
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 162
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 155
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 170
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 163
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.847,
+        "value": 156
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 171
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 164
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.733,
+        "value": 157
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 172
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.698,
+        "value": 165
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 173
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 1.983,
+        "value": 166
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 2.563,
+        "value": 174
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "probability": 1.307,
+        "value": 175
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life",
+        "probability": 0,
+        "value": 0
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life_percent",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life_percent",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life_percent",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life_percent",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life_percent",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life_percent",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life_percent",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life_percent",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life_percent",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life_percent",
+        "probability": 25,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life_percent",
+        "probability": 25,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "life_percent",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "speed",
+        "probability": 49.751,
+        "value": 2
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "speed",
+        "probability": 5.729,
+        "value": 1
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "speed",
+        "probability": 11.538,
+        "value": 1
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "speed",
+        "probability": 49.751,
+        "value": 3
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "speed",
+        "probability": 52.083,
+        "value": 2
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "speed",
+        "probability": 54.945,
+        "value": 2
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "speed",
+        "probability": 0.498,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "speed",
+        "probability": 42.188,
+        "value": 3
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "speed",
+        "probability": 33.516,
+        "value": 3
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "effect_hit",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "effect_hit",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "effect_hit",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "effect_hit",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "effect_hit",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "effect_hit",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "effect_hit",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "effect_hit",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "effect_hit",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "effect_hit",
+        "probability": 25,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "effect_hit",
+        "probability": 25,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "effect_hit",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "effect_resistance",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "effect_resistance",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "effect_resistance",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "effect_resistance",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "effect_resistance",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "effect_resistance",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "effect_resistance",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "effect_resistance",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "effect_resistance",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "effect_resistance",
+        "probability": 25,
+        "value": 7
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "effect_resistance",
+        "probability": 25,
+        "value": 7
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "effect_resistance",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 2
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 2
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 2
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 3
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 3
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 3
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "crit_rate",
+        "probability": 33.333,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 3
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 3
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 3
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 4
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 5
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 6
+    },
+    {
+        "quality": "rare",
+        "level": "58-71",
+        "code": "crit_injury",
+        "probability": 25,
+        "value": 5
+    }
+]
