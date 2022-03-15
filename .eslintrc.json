@@ -20,7 +20,8 @@
           "Component",
           "Typography",
           "Box",
-          "Paper"
+          "Paper",
+          "TextField"
         ]
       }
     ],

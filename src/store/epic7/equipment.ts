@@ -1,4 +1,5 @@
 import { atom, selector } from 'recoil';
+import { equipmentPropertyOptions, equipmentTypeOptions } from '../../data/epic7';
 import {
   Equipment,
   EquipmentQuality, EquipmentType, PersonTemplate, PropertyCode,
@@ -7,9 +8,9 @@ import {
 export const personTemplateState = atom<PersonTemplate>({
   key: 'personTemplateState',
   default: {
-    attack: 1000,
-    defense: 500,
-    life: 5000,
+    attack: '1000',
+    defense: '500',
+    life: '5000',
   },
 });
 
@@ -28,20 +29,20 @@ export const equipmentTypeState = atom<EquipmentType>({
   default: 'arms',
 });
 
-export const equipmentPropertyState = atom<Record<PropertyCode, number>>({
+export const equipmentPropertyState = atom<Record<PropertyCode, string>>({
   key: 'equipmentPropertyState',
   default: {
-    attack: 0,
-    attack_percent: 0,
-    defense: 0,
-    defense_percent: 0,
-    life: 0,
-    life_percent: 0,
-    speed: 0,
-    crit_rate: 0,
-    crit_injury: 0,
-    effect_hit: 0,
-    effect_resistance: 0,
+    attack: '',
+    attack_percent: '',
+    defense: '',
+    defense_percent: '',
+    life: '',
+    life_percent: '',
+    speed: '',
+    crit_rate: '',
+    crit_injury: '',
+    effect_hit: '',
+    effect_resistance: '',
   },
 });
 
@@ -57,11 +58,11 @@ export const equipmentState = selector<Equipment>({
     return {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       properties: Object.entries(equipmentPropertyValue).filter(([code, value]) => {
-        return value > 0;
+        return value !== '';
       }).map(([code, value]) => {
         return {
           code: code as PropertyCode,
-          value,
+          value: Number(value),
           oneEnhancedValueArray: [],
         };
       }),
@@ -77,13 +78,25 @@ export const equipmentErrorsState = selector<string[]>({
     const errors: string[] = [];
     const { properties, quality, enhancedLevel } = get(equipmentState);
     if (quality === 'hero' && enhancedLevel < 12) {
-      if (properties.length > 3) {
-        errors.push('副属性超过了3项');
+      if (properties.length !== 3) {
+        errors.push('副属性应该是3项');
       }
-    } else if (properties.length > 4) {
-      errors.push('副属性超过了4项');
+    } else if (properties.length !== 4) {
+      errors.push('副属性应该是4项');
     }
 
     return errors;
+  },
+});
+
+export const primarySelectOptionsState = selector({
+  key: 'primarySelectOptionsState',
+  get: ({ get }) => {
+    return equipmentTypeOptions[get(equipmentTypeState)].primaryProperty.map((code) => {
+      return {
+        code,
+        label: equipmentPropertyOptions[code].label,
+      };
+    });
   },
 });

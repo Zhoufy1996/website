@@ -47,13 +47,13 @@ interface CalcEqipmentScore {
  */
 export const calcEqipmentScore: CalcEqipmentScore = ({ equipmentProperty, personTemplate }) => {
   type ScoreCalcObj = Record<PropertyCode, (value: number) => number>;
-
   const scoreCalcObj: ScoreCalcObj = {
-    attack: (value) => (value * 100) / personTemplate.attack,
+    attack: (value) => (personTemplate.attack ? (value * 100) / Number(personTemplate.attack) : 0),
     attack_percent: (value) => value,
-    defense: (value) => (value * 100) / personTemplate.defense,
+    defense: (value) => (personTemplate.defense
+      ? (value * 100) / Number(personTemplate.defense) : 0),
     defense_percent: (value) => value,
-    life: (value) => (value * 100) / personTemplate.life,
+    life: (value) => (personTemplate.life ? (value * 100) / Number(personTemplate.life) : 0),
     life_percent: (value) => value,
     speed: (value) => value * 2,
     crit_rate: (value) => (value * 8) / 5,
@@ -62,11 +62,11 @@ export const calcEqipmentScore: CalcEqipmentScore = ({ equipmentProperty, person
     effect_resistance: (value) => value,
   };
 
-  return equipmentProperty.properties.map((property) => {
+  return Number(equipmentProperty.properties.map((property) => {
     return scoreCalcObj[property.code](property.value);
   }).reduce((acc, cur) => {
     return acc + cur;
-  }, 0);
+  }, 0).toFixed(1));
 };
 
 // 强化一次装备属性

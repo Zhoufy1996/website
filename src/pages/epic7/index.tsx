@@ -2,6 +2,7 @@ import { ThemeProvider } from '@emotion/react';
 import { CssBaseline } from '@mui/material';
 import Head from 'next/head';
 import theme from '../../utils/theme';
+import Epic7Home from './home';
 
 const Epic7ToolsHome = () => {
   return (
@@ -12,6 +13,7 @@ const Epic7ToolsHome = () => {
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
+        <Epic7Home />
       </ThemeProvider>
     </>
   );

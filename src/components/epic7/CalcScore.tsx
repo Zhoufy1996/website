@@ -1,4 +1,4 @@
-import { Button, Typography } from '@mui/material';
+import { Box, Button, Typography } from '@mui/material';
 import { useCallback, useState } from 'react';
 import { useRecoilValue } from 'recoil';
 import { equipmentErrorsState, equipmentState, personTemplateState } from '../../store/epic7/equipment';
@@ -23,32 +23,47 @@ const CalcScore = () => {
     setScore(handleCalcScore());
   }, [handleCalcScore]);
 
+  const hasError = equipmentErrors.length > 0;
+
   return (
-    <div>
-      <Button onClick={() => {
-        handleSetScore();
-      }}
-      >
-        算分
-      </Button>
+    <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
+      <Box sx={{ display: 'flex', alignItems: 'center' }}>
+        <Button
+          variant="outlined"
+          onClick={handleSetScore}
+          sx={{
+            mr: 1,
+          }}
+          disabled={hasError}
+        >
+          算分
+        </Button>
+
+        {
+            !hasError && (
+              <Typography variant="body1">
+                分数:
+                {score}
+              </Typography>
+            )
+          }
+
+      </Box>
       {
-          equipmentErrors.length > 0 ? (
+          hasError ? (
             <div>
               {
                     equipmentErrors.map((error) => {
                       return (
-                        <Typography variant="body1" key={error}>{error}</Typography>
+                        <Typography variant="error" key={error}>{error}</Typography>
                       );
                     })
                 }
             </div>
           ) : null
       }
-      <Typography variant="body1">
-        分数:
-        {score}
-      </Typography>
-    </div>
+
+    </Box>
   );
 };
 

@@ -4,6 +4,10 @@ export type PropertyCode = 'attack' | 'attack_percent' |
 'speed' | 'crit_rate' | 'crit_injury' |
 'effect_hit' | 'effect_resistance';
 
+export type PersonPropertyCode = 'attack' | 'defense' | 'life';
+
+type EquipmentType = 'arms' | 'helmet' | 'armor' | 'ring' | 'necklace' | 'shoe';
+
 export interface OneEnhancedValue {
   value: number
   probability: number
@@ -24,11 +28,9 @@ export interface Equipment {
 }
 
 export interface PersonTemplate {
-  attack: number
-  defense: number
-  life: number
+  attack: string
+  defense: string
+  life: string
 }
 
 export type PersonTemplateCode = keyof PersonTemplate;
-
-type EquipmentType = 'arms' | 'helmet' | 'armor' | 'ring' | 'necklace' | 'shoe';
