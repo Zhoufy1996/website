@@ -1,7 +1,7 @@
 import { useRecoilValue, useSetRecoilState } from 'recoil';
 import Typography from '@mui/material/Typography';
 import { personTemplateState } from '../../store/epic7/equipment';
-import { PersonTemplateCode } from '../../types/epic7';
+import { PersonAttributeCode } from '../../types/epic7';
 import { personPropertyOptions } from '../../data/epic7';
 import CustomTextField from './CustomTextField';
 
@@ -21,7 +21,7 @@ const PersonTemplate = () => {
                 label={options.label}
                 type="number"
                 variant="outlined"
-                value={personTemplate[code as PersonTemplateCode]}
+                value={personTemplate[code as PersonAttributeCode]}
                 inputProps={{
                   min: 0,
                 }}

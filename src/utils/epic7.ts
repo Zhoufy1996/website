@@ -1,11 +1,10 @@
 import {
-  Equipment, EquipmentPropertyItem, OneEnhancedValue, PersonTemplate, PropertyCode,
+  Equipment, EquipmentAttributeCode, EquipmentSubAttributeItem, PersonTemplate,
 } from '../types/epic7';
 import { randomSelect } from './helper';
+import enhancedProbabilityData from '../data/epci7_probability_data.json';
 
-type EnhancedProbabilityObj = Record<PropertyCode, OneEnhancedValue[]>;
-
-export const propertyArray: PropertyCode[] = [
+export const propertyArray: EquipmentAttributeCode[] = [
   'attack',
   'attack_percent',
   'defense',
@@ -18,20 +17,6 @@ export const propertyArray: PropertyCode[] = [
   'effect_hit',
   'effect_resistance',
 ];
-
-export const enhancedProbabilityOptions: EnhancedProbabilityObj = {
-  attack: [],
-  attack_percent: [],
-  defense: [],
-  defense_percent: [],
-  life: [],
-  life_percent: [],
-  speed: [],
-  crit_rate: [],
-  crit_injury: [],
-  effect_hit: [],
-  effect_resistance: [],
-};
 
 interface CalcEqipmentScore {
   (props: {
@@ -46,7 +31,7 @@ interface CalcEqipmentScore {
  * @returns 装备分数
  */
 export const calcEqipmentScore: CalcEqipmentScore = ({ equipmentProperty, personTemplate }) => {
-  type ScoreCalcObj = Record<PropertyCode, (value: number) => number>;
+  type ScoreCalcObj = Record<EquipmentAttributeCode, (value: number) => number>;
   const scoreCalcObj: ScoreCalcObj = {
     attack: (value) => (personTemplate.attack ? (value * 100) / Number(personTemplate.attack) : 0),
     attack_percent: (value) => value,
@@ -62,7 +47,7 @@ export const calcEqipmentScore: CalcEqipmentScore = ({ equipmentProperty, person
     effect_resistance: (value) => value,
   };
 
-  return Number(equipmentProperty.properties.map((property) => {
+  return Number(equipmentProperty.subAttributes.map((property) => {
     return scoreCalcObj[property.code](property.value);
   }).reduce((acc, cur) => {
     return acc + cur;
@@ -70,54 +55,65 @@ export const calcEqipmentScore: CalcEqipmentScore = ({ equipmentProperty, person
 };
 
 // 强化一次装备属性
-export const enhanceOnce = (equipmentProperty: Equipment): Equipment => {
-  const getEnhanceItem = () :EquipmentPropertyItem => {
-    return randomSelect(equipmentProperty.properties);
+export const enhanceOnce = (equipment: Equipment): Equipment => {
+  const getEnhanceItem = () : EquipmentSubAttributeItem => {
+    return randomSelect(equipment.subAttributes);
   };
 
-  const getRestEnhanceItem = (): EquipmentPropertyItem => {
-    const existPropertyCode = equipmentProperty.properties.map((item) => item.code);
+  const enhancedProperties = enhancedProbabilityData.filter((item) => {
+    return item.quality === equipment.quality && item.level === equipment.level;
+  });
+
+  const getRestEnhanceItem = (): EquipmentSubAttributeItem => {
+    const existPropertyCode = equipment.subAttributes.map((item) => item.code);
     const notExistPropertyCode = propertyArray.filter((code) => !existPropertyCode.includes(code));
-    const enhanceCode = randomSelect(notExistPropertyCode);
     return {
       value: 0,
-      code: enhanceCode,
-      oneEnhancedValueArray: enhancedProbabilityOptions[enhanceCode],
+      code: randomSelect(notExistPropertyCode),
     };
   };
 
-  const getEnhanceValue = (equipmentPropertyItem: EquipmentPropertyItem): number => {
-    const randomValue = Math.random();
+  const getEnhanceValue = (equipmentSubAttributeItem: EquipmentSubAttributeItem): number => {
+    const randomValue = Math.random() * 100;
     let restValue = randomValue;
     let index = 0;
-    while (restValue >= 0 && equipmentPropertyItem.oneEnhancedValueArray[index] != null) {
-      restValue -= equipmentPropertyItem.oneEnhancedValueArray[index].value;
+
+    const attritubeEnhancedProbabilities = enhancedProperties
+      .find((item) => item.code === equipmentSubAttributeItem.code)?.enhancedProperties;
+
+    if (attritubeEnhancedProbabilities == null) {
+      return 0;
+    }
+
+    while (restValue >= 0 && attritubeEnhancedProbabilities[index] != null) {
+      restValue -= attritubeEnhancedProbabilities[index].probability;
       index += 1;
     }
 
-    return equipmentPropertyItem.oneEnhancedValueArray[index - 1].value;
+    return attritubeEnhancedProbabilities[index - 1].value;
   };
 
-  const enhanceItemOnce = (equipmentPropertyItem: EquipmentPropertyItem): EquipmentPropertyItem => {
+  const enhanceItemOnce = (equipmentAttributeItem: EquipmentSubAttributeItem)
+  :EquipmentSubAttributeItem => {
     return {
-      ...equipmentPropertyItem,
-      value: equipmentPropertyItem.value + getEnhanceValue(equipmentPropertyItem),
+      ...equipmentAttributeItem,
+      value: equipmentAttributeItem.value + getEnhanceValue(equipmentAttributeItem),
     };
   };
 
   const shouldAddOneProperty = () => {
-    return equipmentProperty.quality === 'hero' && equipmentProperty.enhancedLevel >= 9 && equipmentProperty.enhancedLevel < 12;
+    return equipment.quality === 'hero' && equipment.enhancedLevel >= 9 && equipment.enhancedLevel < 12;
   };
 
-  let enhanceItem: EquipmentPropertyItem;
+  let enhanceItem: EquipmentSubAttributeItem;
 
   if (shouldAddOneProperty()) {
     enhanceItem = getRestEnhanceItem();
 
     return {
-      ...equipmentProperty,
-      properties: [
-        ...equipmentProperty.properties,
+      ...equipment,
+      subAttributes: [
+        ...equipment.subAttributes,
         enhanceItemOnce(enhanceItem),
       ],
     };
@@ -126,14 +122,14 @@ export const enhanceOnce = (equipmentProperty: Equipment): Equipment => {
   enhanceItem = getEnhanceItem();
 
   return {
-    ...equipmentProperty,
-    enhancedLevel: equipmentProperty.enhancedLevel + 3,
-    properties: equipmentProperty.properties.map((equipmentPropertyItem) => {
-      if (equipmentPropertyItem.code === enhanceItem.code) {
-        return enhanceItemOnce(equipmentPropertyItem);
+    ...equipment,
+    enhancedLevel: equipment.enhancedLevel + 3,
+    subAttributes: equipment.subAttributes.map((equipmentAttributeItem) => {
+      if (equipmentAttributeItem.code === enhanceItem.code) {
+        return enhanceItemOnce(equipmentAttributeItem);
       }
 
-      return equipmentPropertyItem;
+      return equipmentAttributeItem;
     }),
   };
 };

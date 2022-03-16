@@ -1,33 +1,4 @@
- // https://page.onstove.com/epicseven/tw/view/7872400
- type PropertyCode = 'attack' | 'attack_percent' |
- 'defense' | 'defense_percent' |
- 'life' | 'life_percent' |
- 'speed' | 'crit_rate' | 'crit_injury' |
- 'effect_hit' | 'effect_resistance';
-
-const propertyCode: PropertyCode[] = [
-  'attack',
-  'attack_percent',
-  'defense',
-  'defense_percent',
-  'life',
-  'life_percent',
-  'speed',
-  'effect_hit',
-  'effect_resistance',
-  'crit_rate',
-  'crit_injury',
-];
-
-interface ProbabilityItem {
-  quality: 'legend' | 'hero' | 'rare';
-  level: '88' | '72-85' | '58-71';
-  code: PropertyCode;
-  probability: number
-  value:number
-}
-
-const saveTemplateAsFile = (filename:string, dataObjToWrite:any) => {
+const saveTemplateAsFile = (filename, dataObjToWrite) => {
   const blob = new Blob([JSON.stringify(dataObjToWrite)], { type: 'text/json' });
   const link = document.createElement('a');
 
@@ -45,14 +16,14 @@ const saveTemplateAsFile = (filename:string, dataObjToWrite:any) => {
   link.remove();
 };
 
-const getEnhancedProbability = (): ProbabilityItem[] => {
-  const getOne = (tableElement: Element, code:PropertyCode, level :ProbabilityItem['level']) => {
+const getEnhancedProbability = () => {
+  const getOne = (tableElement, code, level) => {
     const trArray = Array.from(tableElement.querySelectorAll('tr'));
     const trs = trArray.slice(2, trArray.length - 1);
 
-    const result:ProbabilityItem[] = [];
+    const result = [];
 
-    const temp:ProbabilityItem = {
+    const temp = {
       quality: 'legend',
       level,
       code,
@@ -88,9 +59,9 @@ const getEnhancedProbability = (): ProbabilityItem[] => {
     return result;
   };
 
-  const result:ProbabilityItem[] = [];
+  const result = [];
 
-  const getLevel = (i:number):ProbabilityItem['level'] => {
+  const getLevel = (i) => {
     if (i < 11) {
       return '88';
     }
@@ -102,7 +73,7 @@ const getEnhancedProbability = (): ProbabilityItem[] => {
     return '58-71';
   };
 
-  const getCode = (i:number):PropertyCode => {
+  const getCode = (i) => {
     return propertyCode[i % 11];
   };
 
@@ -119,5 +90,3 @@ const getEnhancedProbability = (): ProbabilityItem[] => {
 
   return result;
 };
-
-export default getEnhancedProbability;

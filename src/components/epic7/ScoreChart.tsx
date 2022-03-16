@@ -1,3 +1,4 @@
+import { Box } from '@mui/material';
 import {
   Chart,
   ArcElement,
@@ -137,9 +138,15 @@ const EquipmentEnhancedChart = ({ data }: EquipmentEnhancedChartProps) => {
     return () => {};
   }, [data]);
   return (
-    <div style={{ width: 400, height: 300 }}>
+    <Box
+      sx={{
+        width: {
+          xs: '100%',
+        },
+      }}
+    >
       <canvas ref={ref} />
-    </div>
+    </Box>
   );
 };
 

@@ -1,5 +1,7 @@
 import { Box, Button } from '@mui/material';
-import { useMemo, useState } from 'react';
+import {
+  useEffect, useMemo, useRef, useState,
+} from 'react';
 import { useRecoilValue } from 'recoil';
 import { equipmentErrorsState, equipmentState, personTemplateState } from '../../store/epic7/equipment';
 import { Equipment } from '../../types/epic7';
@@ -13,15 +15,35 @@ interface ChartDataItem {
 }
 
 const SimulateEnhance = () => {
-  const [simulateCount, setSimulateCount] = useState<string>('1');
+  const [simulateCount, setSimulateCount] = useState<string>('100');
   const equipmentErrors = useRecoilValue(equipmentErrorsState);
   const equipmentValue = useRecoilValue(equipmentState);
   const personTemplate = useRecoilValue(personTemplateState);
 
   const [enhancedData, setEnhancedData] = useState<Equipment[]>([]);
 
+  const workerRef = useRef<Worker>();
+  useEffect(() => {
+    workerRef.current = new Worker('./test.worker.js');
+    workerRef.current.onmessage = (e) => {
+      setEnhancedData(e.data);
+    };
+    workerRef.current.onerror = (e) => {
+      console.log(e);
+    };
+    console.log(workerRef);
+    return () => {
+      workerRef.current?.terminate();
+    };
+  }, []);
+
   const enhance = () => {
-    if (equipmentErrors.length === 0) {
+    if (Number(simulateCount) > 10000) {
+      workerRef.current?.postMessage({
+        equipment: equipmentValue,
+        count: simulateCount,
+      });
+    } else {
       setEnhancedData(new Array(Number(simulateCount)).fill(1).map(() => {
         return enhanceMax(equipmentValue);
       }));
@@ -56,20 +78,21 @@ const SimulateEnhance = () => {
 
   return (
     <div>
-      <Box>
+      <Box sx={{ display: 'flex', alignItems: 'center' }}>
         <CustomTextField
           id="simulateCount"
           label="强化次数"
           type="number"
           inputProps={{
             min: 0,
+            max: 10000,
           }}
           value={simulateCount}
           onChange={(e) => {
             setSimulateCount(e.target.value);
           }}
         />
-        <Button onClick={enhance}>强化</Button>
+        <Button onClick={enhance} disabled={equipmentErrors.length > 0}>强化</Button>
       </Box>
       {
         chartData.length > 0 && (

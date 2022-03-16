@@ -1,9 +1,5 @@
 import { atom, selector } from 'recoil';
-import { equipmentPropertyOptions, equipmentTypeOptions } from '../../data/epic7';
-import {
-  Equipment,
-  EquipmentQuality, EquipmentType, PersonTemplate, PropertyCode,
-} from '../../types/epic7';
+import { Equipment, EquipmentAttributeCode, PersonTemplate } from '../../types/epic7';
 
 export const personTemplateState = atom<PersonTemplate>({
   key: 'personTemplateState',
@@ -14,23 +10,33 @@ export const personTemplateState = atom<PersonTemplate>({
   },
 });
 
-export const equipmentQualityState = atom<EquipmentQuality>({
+export const equipmentQualityState = atom<Equipment['quality']>({
   key: 'equipmentQualityState',
   default: 'legend',
 });
 
-export const equipmentEnhancedLevelState = atom<number>({
+export const equipmentEnhancedLevelState = atom<Equipment['enhancedLevel']>({
   key: 'equipmentEnhancedLevelState',
   default: 0,
 });
 
-export const equipmentTypeState = atom<EquipmentType>({
+export const equipmentLevelState = atom<Equipment['level']>({
+  key: 'equipmentLevelState',
+  default: '72-85',
+});
+
+export const equipmentTypeState = atom<Equipment['type']>({
   key: 'equipmentTypeState',
   default: 'arms',
 });
 
-export const equipmentPropertyState = atom<Record<PropertyCode, string>>({
-  key: 'equipmentPropertyState',
+export const equipmentPrimaryAttributeState = atom<Equipment['primaryAttribute']>({
+  key: 'equipmentPrimaryAttributeState',
+  default: 'attack',
+});
+
+export const equipmentAttributeState = atom<Record<EquipmentAttributeCode, string>>({
+  key: 'equipmentAttributeState',
   default: {
     attack: '',
     attack_percent: '',
@@ -46,28 +52,24 @@ export const equipmentPropertyState = atom<Record<PropertyCode, string>>({
   },
 });
 
-export const equipmentPrimaryPropertyState = atom<PropertyCode>({
-  key: 'equipmentPrimaryPropertyState',
-  default: 'attack',
-});
-
 export const equipmentState = selector<Equipment>({
   key: 'equipmentState',
   get: ({ get }) => {
-    const equipmentPropertyValue = get(equipmentPropertyState);
     return {
+      type: get(equipmentTypeState),
+      level: get(equipmentLevelState),
+      quality: get(equipmentQualityState),
+      primaryAttribute: get(equipmentPrimaryAttributeState),
+      enhancedLevel: get(equipmentEnhancedLevelState),
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      properties: Object.entries(equipmentPropertyValue).filter(([code, value]) => {
+      subAttributes: Object.entries(get(equipmentAttributeState)).filter(([code, value]) => {
         return value !== '';
       }).map(([code, value]) => {
         return {
-          code: code as PropertyCode,
+          code: code as EquipmentAttributeCode,
           value: Number(value),
-          oneEnhancedValueArray: [],
         };
       }),
-      enhancedLevel: get(equipmentEnhancedLevelState),
-      quality: get(equipmentQualityState),
     };
   },
 });
@@ -76,27 +78,17 @@ export const equipmentErrorsState = selector<string[]>({
   key: 'equipmentErrorsState',
   get: ({ get }) => {
     const errors: string[] = [];
-    const { properties, quality, enhancedLevel } = get(equipmentState);
+    const {
+      quality, enhancedLevel, subAttributes,
+    } = get(equipmentState);
     if (quality === 'hero' && enhancedLevel < 12) {
-      if (properties.length !== 3) {
+      if (subAttributes.length !== 3) {
         errors.push('副属性应该是3项');
       }
-    } else if (properties.length !== 4) {
+    } else if (subAttributes.length !== 4) {
       errors.push('副属性应该是4项');
     }
 
     return errors;
-  },
-});
-
-export const primarySelectOptionsState = selector({
-  key: 'primarySelectOptionsState',
-  get: ({ get }) => {
-    return equipmentTypeOptions[get(equipmentTypeState)].primaryProperty.map((code) => {
-      return {
-        code,
-        label: equipmentPropertyOptions[code].label,
-      };
-    });
   },
 });

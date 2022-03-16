@@ -13,8 +13,8 @@ const Epic7Home = () => {
       <Container
         sx={(theme) => {
           return {
-            paddingLeft: theme.spacing(1),
-            paddingRight: theme.spacing(1),
+            p: 1,
+            paddingBottom: theme.spacing(6),
           };
         }}
       >

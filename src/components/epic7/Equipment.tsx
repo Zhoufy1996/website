@@ -6,15 +6,17 @@ import SubProperty from './equipment/SubProperty';
 import Quality from './equipment/Quality';
 import Type from './equipment/Type';
 import PrimaryProperty from './equipment/PrimaryProperty';
+import Level from './equipment/Level';
 
 const Equipment = () => {
   return (
     <div>
       <Typography variant="h6">装备</Typography>
-      <EnhancedLevel />
-      <Quality />
       <Type />
+      <Level />
+      <Quality />
       <PrimaryProperty />
+      <EnhancedLevel />
       <Divider />
       <SubProperty />
     </div>

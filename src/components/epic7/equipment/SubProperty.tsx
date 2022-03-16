@@ -1,23 +1,25 @@
 import { useRecoilValue, useSetRecoilState } from 'recoil';
-import { equipmentTypeOptions, equipmentPropertyOptions } from '../../../data/epic7';
+import { equipmentTypeOptions, equipmentAttributeOptions } from '../../../data/epic7';
 import {
-  equipmentPrimaryPropertyState, equipmentPropertyState, equipmentTypeState,
+  equipmentAttributeState,
+  equipmentPrimaryAttributeState,
+  equipmentTypeState,
 } from '../../../store/epic7/equipment';
-import { PropertyCode } from '../../../types/epic7';
+import { EquipmentAttributeCode } from '../../../types/epic7';
 import CustomTextField from '../CustomTextField';
 
 const SubProperty = () => {
   const equipmentType = useRecoilValue(equipmentTypeState);
 
-  const equipmentProperty = useRecoilValue(equipmentPropertyState);
-  const setEquipmentProperty = useSetRecoilState(equipmentPropertyState);
-  const equipmentPrimaryProperty = useRecoilValue(equipmentPrimaryPropertyState);
+  const equipmentAttribute = useRecoilValue(equipmentAttributeState);
+  const setEquipmenAttribute = useSetRecoilState(equipmentAttributeState);
+  const equipmentPrimaryProperty = useRecoilValue(equipmentPrimaryAttributeState);
 
-  const { effectProperty } = equipmentTypeOptions[equipmentType];
+  const { subAttributes } = equipmentTypeOptions[equipmentType];
 
   return (
     <>
-      {Object.entries(equipmentPropertyOptions)
+      {Object.entries(equipmentAttributeOptions)
         .sort((left, right) => {
           return left[1].sortNo - right[1].sortNo;
         })
@@ -29,9 +31,9 @@ const SubProperty = () => {
               label={options.label}
               type="number"
               variant="outlined"
-              value={equipmentProperty[code as PropertyCode] || ''}
+              value={equipmentAttribute[code as EquipmentAttributeCode]}
               onChange={(e) => {
-                setEquipmentProperty((pre) => {
+                setEquipmenAttribute((pre) => {
                   return {
                     ...pre,
                     [code]: e.target.value,
@@ -39,7 +41,7 @@ const SubProperty = () => {
                 });
               }}
               disabled={code === equipmentPrimaryProperty
-                || !effectProperty.includes(code as PropertyCode)}
+                || !subAttributes.includes(code as EquipmentAttributeCode)}
               inputProps={{
                 min: 0,
               }}

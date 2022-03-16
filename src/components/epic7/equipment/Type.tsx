@@ -5,8 +5,8 @@ import { equipmentTypeOptions } from '../../../data/epic7';
 import CustomTextField from '../CustomTextField';
 import {
   equipmentTypeState,
-  equipmentPrimaryPropertyState,
-  equipmentPropertyState,
+  equipmentAttributeState,
+  equipmentPrimaryAttributeState,
 } from '../../../store/epic7/equipment';
 import { EquipmentType } from '../../../types/epic7';
 
@@ -14,12 +14,13 @@ const Type = () => {
   const equipmentType = useRecoilValue(equipmentTypeState);
   const setEquipmentType = useSetRecoilState(equipmentTypeState);
 
-  const setEquipmentPrimaryProperty = useSetRecoilState(equipmentPrimaryPropertyState);
-  const setEquipmentProperty = useSetRecoilState(equipmentPropertyState);
+  const setEquipmentPrimaryAttribute = useSetRecoilState(equipmentPrimaryAttributeState);
+  const setEquipmentAttribute = useSetRecoilState(equipmentAttributeState);
 
   useEffect(() => {
-    setEquipmentPrimaryProperty(equipmentTypeOptions[equipmentType].primaryProperty[0]);
-    setEquipmentProperty({
+    setEquipmentPrimaryAttribute(equipmentTypeOptions[equipmentType].primaryAttritube[0]);
+
+    setEquipmentAttribute({
       attack: '',
       attack_percent: '',
       defense: '',
@@ -32,7 +33,7 @@ const Type = () => {
       effect_hit: '',
       effect_resistance: '',
     });
-  }, [setEquipmentPrimaryProperty, equipmentType, setEquipmentProperty]);
+  }, [setEquipmentAttribute, equipmentType, setEquipmentPrimaryAttribute]);
 
   return (
     <CustomTextField

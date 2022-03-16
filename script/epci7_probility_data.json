@@ -1,0 +1,2936 @@
+[
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack",
+        "enhancedProperties": [
+            {
+                "value": 37,
+                "probability": 0.579
+            },
+            {
+                "value": 38,
+                "probability": 6.435
+            },
+            {
+                "value": 39,
+                "probability": 6.435
+            },
+            {
+                "value": 40,
+                "probability": 6.435
+            },
+            {
+                "value": 41,
+                "probability": 6.435
+            },
+            {
+                "value": 42,
+                "probability": 6.435
+            },
+            {
+                "value": 43,
+                "probability": 6.435
+            },
+            {
+                "value": 44,
+                "probability": 6.435
+            },
+            {
+                "value": 45,
+                "probability": 6.435
+            },
+            {
+                "value": 46,
+                "probability": 6.435
+            },
+            {
+                "value": 47,
+                "probability": 6.435
+            },
+            {
+                "value": 48,
+                "probability": 6.435
+            },
+            {
+                "value": 49,
+                "probability": 6.435
+            },
+            {
+                "value": 50,
+                "probability": 6.435
+            },
+            {
+                "value": 51,
+                "probability": 6.435
+            },
+            {
+                "value": 52,
+                "probability": 6.435
+            },
+            {
+                "value": 53,
+                "probability": 2.896
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack",
+        "enhancedProperties": [
+            {
+                "value": 36,
+                "probability": 6.678
+            },
+            {
+                "value": 37,
+                "probability": 6.773
+            },
+            {
+                "value": 38,
+                "probability": 6.773
+            },
+            {
+                "value": 39,
+                "probability": 6.773
+            },
+            {
+                "value": 40,
+                "probability": 6.773
+            },
+            {
+                "value": 41,
+                "probability": 6.773
+            },
+            {
+                "value": 42,
+                "probability": 6.773
+            },
+            {
+                "value": 43,
+                "probability": 6.773
+            },
+            {
+                "value": 44,
+                "probability": 6.773
+            },
+            {
+                "value": 45,
+                "probability": 6.773
+            },
+            {
+                "value": 46,
+                "probability": 6.773
+            },
+            {
+                "value": 47,
+                "probability": 6.773
+            },
+            {
+                "value": 48,
+                "probability": 6.773
+            },
+            {
+                "value": 49,
+                "probability": 6.773
+            },
+            {
+                "value": 50,
+                "probability": 5.27
+            },
+            {
+                "value": 0,
+                "probability": 0
+            },
+            {
+                "value": 0,
+                "probability": 0
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "attack_percent",
+        "enhancedProperties": [
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            },
+            {
+                "value": 9,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "attack_percent",
+        "enhancedProperties": [
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            },
+            {
+                "value": 9,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense",
+        "enhancedProperties": [
+            {
+                "value": 32,
+                "probability": 12.484
+            },
+            {
+                "value": 33,
+                "probability": 12.484
+            },
+            {
+                "value": 34,
+                "probability": 12.484
+            },
+            {
+                "value": 35,
+                "probability": 12.484
+            },
+            {
+                "value": 36,
+                "probability": 12.484
+            },
+            {
+                "value": 37,
+                "probability": 12.484
+            },
+            {
+                "value": 38,
+                "probability": 12.484
+            },
+            {
+                "value": 39,
+                "probability": 12.484
+            },
+            {
+                "value": 40,
+                "probability": 0.125
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense",
+        "enhancedProperties": [
+            {
+                "value": 30,
+                "probability": 8.005
+            },
+            {
+                "value": 31,
+                "probability": 13.123
+            },
+            {
+                "value": 32,
+                "probability": 13.123
+            },
+            {
+                "value": 33,
+                "probability": 13.123
+            },
+            {
+                "value": 34,
+                "probability": 13.123
+            },
+            {
+                "value": 35,
+                "probability": 13.123
+            },
+            {
+                "value": 36,
+                "probability": 13.123
+            },
+            {
+                "value": 37,
+                "probability": 13.123
+            },
+            {
+                "value": 38,
+                "probability": 0.131
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "defense_percent",
+        "enhancedProperties": [
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            },
+            {
+                "value": 9,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "defense_percent",
+        "enhancedProperties": [
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            },
+            {
+                "value": 9,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life",
+        "enhancedProperties": [
+            {
+                "value": 178,
+                "probability": 1
+            },
+            {
+                "value": 179,
+                "probability": 1.96
+            },
+            {
+                "value": 180,
+                "probability": 1.96
+            },
+            {
+                "value": 181,
+                "probability": 1.96
+            },
+            {
+                "value": 182,
+                "probability": 1.96
+            },
+            {
+                "value": 183,
+                "probability": 1.96
+            },
+            {
+                "value": 184,
+                "probability": 1.96
+            },
+            {
+                "value": 185,
+                "probability": 1.96
+            },
+            {
+                "value": 186,
+                "probability": 1.96
+            },
+            {
+                "value": 187,
+                "probability": 1.96
+            },
+            {
+                "value": 188,
+                "probability": 1.96
+            },
+            {
+                "value": 189,
+                "probability": 1.96
+            },
+            {
+                "value": 190,
+                "probability": 1.96
+            },
+            {
+                "value": 191,
+                "probability": 1.96
+            },
+            {
+                "value": 192,
+                "probability": 1.96
+            },
+            {
+                "value": 193,
+                "probability": 1.96
+            },
+            {
+                "value": 194,
+                "probability": 1.96
+            },
+            {
+                "value": 195,
+                "probability": 1.96
+            },
+            {
+                "value": 196,
+                "probability": 1.96
+            },
+            {
+                "value": 197,
+                "probability": 1.96
+            },
+            {
+                "value": 198,
+                "probability": 1.96
+            },
+            {
+                "value": 199,
+                "probability": 1.96
+            },
+            {
+                "value": 200,
+                "probability": 1.96
+            },
+            {
+                "value": 201,
+                "probability": 1.96
+            },
+            {
+                "value": 202,
+                "probability": 1.96
+            },
+            {
+                "value": 203,
+                "probability": 1.96
+            },
+            {
+                "value": 204,
+                "probability": 1.96
+            },
+            {
+                "value": 205,
+                "probability": 1.96
+            },
+            {
+                "value": 206,
+                "probability": 1.96
+            },
+            {
+                "value": 207,
+                "probability": 1.96
+            },
+            {
+                "value": 208,
+                "probability": 1.96
+            },
+            {
+                "value": 209,
+                "probability": 1.96
+            },
+            {
+                "value": 210,
+                "probability": 1.96
+            },
+            {
+                "value": 211,
+                "probability": 1.96
+            },
+            {
+                "value": 212,
+                "probability": 1.96
+            },
+            {
+                "value": 213,
+                "probability": 1.96
+            },
+            {
+                "value": 214,
+                "probability": 1.96
+            },
+            {
+                "value": 215,
+                "probability": 1.96
+            },
+            {
+                "value": 216,
+                "probability": 1.96
+            },
+            {
+                "value": 217,
+                "probability": 1.96
+            },
+            {
+                "value": 218,
+                "probability": 1.96
+            },
+            {
+                "value": 219,
+                "probability": 1.96
+            },
+            {
+                "value": 220,
+                "probability": 1.96
+            },
+            {
+                "value": 221,
+                "probability": 1.96
+            },
+            {
+                "value": 222,
+                "probability": 1.96
+            },
+            {
+                "value": 223,
+                "probability": 1.96
+            },
+            {
+                "value": 224,
+                "probability": 1.96
+            },
+            {
+                "value": 225,
+                "probability": 1.96
+            },
+            {
+                "value": 226,
+                "probability": 1.96
+            },
+            {
+                "value": 227,
+                "probability": 1.96
+            },
+            {
+                "value": 228,
+                "probability": 1.96
+            },
+            {
+                "value": 229,
+                "probability": 1
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life",
+        "enhancedProperties": [
+            {
+                "value": 169,
+                "probability": 0.887
+            },
+            {
+                "value": 170,
+                "probability": 2.064
+            },
+            {
+                "value": 171,
+                "probability": 2.064
+            },
+            {
+                "value": 172,
+                "probability": 2.064
+            },
+            {
+                "value": 173,
+                "probability": 2.064
+            },
+            {
+                "value": 174,
+                "probability": 2.064
+            },
+            {
+                "value": 175,
+                "probability": 2.064
+            },
+            {
+                "value": 176,
+                "probability": 2.064
+            },
+            {
+                "value": 177,
+                "probability": 2.064
+            },
+            {
+                "value": 178,
+                "probability": 2.064
+            },
+            {
+                "value": 179,
+                "probability": 2.064
+            },
+            {
+                "value": 180,
+                "probability": 2.064
+            },
+            {
+                "value": 181,
+                "probability": 2.064
+            },
+            {
+                "value": 182,
+                "probability": 2.064
+            },
+            {
+                "value": 183,
+                "probability": 2.064
+            },
+            {
+                "value": 184,
+                "probability": 2.064
+            },
+            {
+                "value": 185,
+                "probability": 2.064
+            },
+            {
+                "value": 186,
+                "probability": 2.064
+            },
+            {
+                "value": 187,
+                "probability": 2.064
+            },
+            {
+                "value": 188,
+                "probability": 2.064
+            },
+            {
+                "value": 189,
+                "probability": 2.064
+            },
+            {
+                "value": 190,
+                "probability": 2.064
+            },
+            {
+                "value": 191,
+                "probability": 2.064
+            },
+            {
+                "value": 192,
+                "probability": 2.064
+            },
+            {
+                "value": 193,
+                "probability": 2.064
+            },
+            {
+                "value": 194,
+                "probability": 2.064
+            },
+            {
+                "value": 195,
+                "probability": 2.064
+            },
+            {
+                "value": 196,
+                "probability": 2.064
+            },
+            {
+                "value": 197,
+                "probability": 2.064
+            },
+            {
+                "value": 198,
+                "probability": 2.064
+            },
+            {
+                "value": 199,
+                "probability": 2.064
+            },
+            {
+                "value": 200,
+                "probability": 2.064
+            },
+            {
+                "value": 201,
+                "probability": 2.064
+            },
+            {
+                "value": 202,
+                "probability": 2.064
+            },
+            {
+                "value": 203,
+                "probability": 2.064
+            },
+            {
+                "value": 204,
+                "probability": 2.064
+            },
+            {
+                "value": 205,
+                "probability": 2.064
+            },
+            {
+                "value": 206,
+                "probability": 2.064
+            },
+            {
+                "value": 207,
+                "probability": 2.064
+            },
+            {
+                "value": 208,
+                "probability": 2.064
+            },
+            {
+                "value": 209,
+                "probability": 2.064
+            },
+            {
+                "value": 210,
+                "probability": 2.064
+            },
+            {
+                "value": 211,
+                "probability": 2.064
+            },
+            {
+                "value": 212,
+                "probability": 2.064
+            },
+            {
+                "value": 213,
+                "probability": 2.064
+            },
+            {
+                "value": 214,
+                "probability": 2.064
+            },
+            {
+                "value": 215,
+                "probability": 2.064
+            },
+            {
+                "value": 216,
+                "probability": 2.064
+            },
+            {
+                "value": 217,
+                "probability": 2.064
+            },
+            {
+                "value": 218,
+                "probability": 0.062
+            },
+            {
+                "value": 0,
+                "probability": 0
+            },
+            {
+                "value": 0,
+                "probability": 0
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "life_percent",
+        "enhancedProperties": [
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            },
+            {
+                "value": 9,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "life_percent",
+        "enhancedProperties": [
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            },
+            {
+                "value": 9,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "speed",
+        "enhancedProperties": [
+            {
+                "value": 3,
+                "probability": 49.751
+            },
+            {
+                "value": 4,
+                "probability": 49.751
+            },
+            {
+                "value": 5,
+                "probability": 0.498
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "speed",
+        "enhancedProperties": [
+            {
+                "value": 2,
+                "probability": 8.333
+            },
+            {
+                "value": 3,
+                "probability": 52.083
+            },
+            {
+                "value": 4,
+                "probability": 39.583
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "effect_hit",
+        "enhancedProperties": [
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            },
+            {
+                "value": 9,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "effect_hit",
+        "enhancedProperties": [
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            },
+            {
+                "value": 9,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "effect_resistance",
+        "enhancedProperties": [
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            },
+            {
+                "value": 9,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "effect_resistance",
+        "enhancedProperties": [
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            },
+            {
+                "value": 9,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "crit_rate",
+        "enhancedProperties": [
+            {
+                "value": 3,
+                "probability": 25
+            },
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "crit_rate",
+        "enhancedProperties": [
+            {
+                "value": 3,
+                "probability": 25
+            },
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "88",
+        "code": "crit_injury",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 20
+            },
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "88",
+        "code": "crit_injury",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 20
+            },
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack",
+        "enhancedProperties": [
+            {
+                "value": 33,
+                "probability": 6.103
+            },
+            {
+                "value": 34,
+                "probability": 7.353
+            },
+            {
+                "value": 35,
+                "probability": 7.353
+            },
+            {
+                "value": 36,
+                "probability": 7.353
+            },
+            {
+                "value": 37,
+                "probability": 7.353
+            },
+            {
+                "value": 38,
+                "probability": 7.353
+            },
+            {
+                "value": 39,
+                "probability": 7.353
+            },
+            {
+                "value": 40,
+                "probability": 7.353
+            },
+            {
+                "value": 41,
+                "probability": 7.353
+            },
+            {
+                "value": 42,
+                "probability": 7.353
+            },
+            {
+                "value": 43,
+                "probability": 7.353
+            },
+            {
+                "value": 44,
+                "probability": 7.353
+            },
+            {
+                "value": 45,
+                "probability": 7.353
+            },
+            {
+                "value": 46,
+                "probability": 5.662
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack",
+        "enhancedProperties": [
+            {
+                "value": 31,
+                "probability": 3.718
+            },
+            {
+                "value": 32,
+                "probability": 7.746
+            },
+            {
+                "value": 33,
+                "probability": 7.746
+            },
+            {
+                "value": 34,
+                "probability": 7.746
+            },
+            {
+                "value": 35,
+                "probability": 7.746
+            },
+            {
+                "value": 36,
+                "probability": 7.746
+            },
+            {
+                "value": 37,
+                "probability": 7.746
+            },
+            {
+                "value": 38,
+                "probability": 7.746
+            },
+            {
+                "value": 39,
+                "probability": 7.746
+            },
+            {
+                "value": 40,
+                "probability": 7.746
+            },
+            {
+                "value": 41,
+                "probability": 7.746
+            },
+            {
+                "value": 42,
+                "probability": 7.746
+            },
+            {
+                "value": 43,
+                "probability": 7.746
+            },
+            {
+                "value": 44,
+                "probability": 3.331
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "attack_percent",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 20
+            },
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "attack_percent",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 20
+            },
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense",
+        "enhancedProperties": [
+            {
+                "value": 28,
+                "probability": 14.265
+            },
+            {
+                "value": 29,
+                "probability": 14.265
+            },
+            {
+                "value": 30,
+                "probability": 14.265
+            },
+            {
+                "value": 31,
+                "probability": 14.265
+            },
+            {
+                "value": 32,
+                "probability": 14.265
+            },
+            {
+                "value": 33,
+                "probability": 14.265
+            },
+            {
+                "value": 34,
+                "probability": 14.265
+            },
+            {
+                "value": 35,
+                "probability": 0.143
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense",
+        "enhancedProperties": [
+            {
+                "value": 26,
+                "probability": 6.147
+            },
+            {
+                "value": 27,
+                "probability": 14.993
+            },
+            {
+                "value": 28,
+                "probability": 14.993
+            },
+            {
+                "value": 29,
+                "probability": 14.993
+            },
+            {
+                "value": 30,
+                "probability": 14.993
+            },
+            {
+                "value": 31,
+                "probability": 14.993
+            },
+            {
+                "value": 32,
+                "probability": 14.993
+            },
+            {
+                "value": 33,
+                "probability": 3.898
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "defense_percent",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 20
+            },
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "defense_percent",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 20
+            },
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life",
+        "enhancedProperties": [
+            {
+                "value": 157,
+                "probability": 1.133
+            },
+            {
+                "value": 158,
+                "probability": 2.221
+            },
+            {
+                "value": 159,
+                "probability": 2.221
+            },
+            {
+                "value": 160,
+                "probability": 2.221
+            },
+            {
+                "value": 161,
+                "probability": 2.221
+            },
+            {
+                "value": 162,
+                "probability": 2.221
+            },
+            {
+                "value": 163,
+                "probability": 2.221
+            },
+            {
+                "value": 164,
+                "probability": 2.221
+            },
+            {
+                "value": 165,
+                "probability": 2.221
+            },
+            {
+                "value": 166,
+                "probability": 2.221
+            },
+            {
+                "value": 167,
+                "probability": 2.221
+            },
+            {
+                "value": 168,
+                "probability": 2.221
+            },
+            {
+                "value": 169,
+                "probability": 2.221
+            },
+            {
+                "value": 170,
+                "probability": 2.221
+            },
+            {
+                "value": 171,
+                "probability": 2.221
+            },
+            {
+                "value": 172,
+                "probability": 2.221
+            },
+            {
+                "value": 173,
+                "probability": 2.221
+            },
+            {
+                "value": 174,
+                "probability": 2.221
+            },
+            {
+                "value": 175,
+                "probability": 2.221
+            },
+            {
+                "value": 176,
+                "probability": 2.221
+            },
+            {
+                "value": 177,
+                "probability": 2.221
+            },
+            {
+                "value": 178,
+                "probability": 2.221
+            },
+            {
+                "value": 179,
+                "probability": 2.221
+            },
+            {
+                "value": 180,
+                "probability": 2.221
+            },
+            {
+                "value": 181,
+                "probability": 2.221
+            },
+            {
+                "value": 182,
+                "probability": 2.221
+            },
+            {
+                "value": 183,
+                "probability": 2.221
+            },
+            {
+                "value": 184,
+                "probability": 2.221
+            },
+            {
+                "value": 185,
+                "probability": 2.221
+            },
+            {
+                "value": 186,
+                "probability": 2.221
+            },
+            {
+                "value": 187,
+                "probability": 2.221
+            },
+            {
+                "value": 188,
+                "probability": 2.221
+            },
+            {
+                "value": 189,
+                "probability": 2.221
+            },
+            {
+                "value": 190,
+                "probability": 2.221
+            },
+            {
+                "value": 191,
+                "probability": 2.221
+            },
+            {
+                "value": 192,
+                "probability": 2.221
+            },
+            {
+                "value": 193,
+                "probability": 2.221
+            },
+            {
+                "value": 194,
+                "probability": 2.221
+            },
+            {
+                "value": 195,
+                "probability": 2.221
+            },
+            {
+                "value": 196,
+                "probability": 2.221
+            },
+            {
+                "value": 197,
+                "probability": 2.221
+            },
+            {
+                "value": 198,
+                "probability": 2.221
+            },
+            {
+                "value": 199,
+                "probability": 2.221
+            },
+            {
+                "value": 200,
+                "probability": 2.221
+            },
+            {
+                "value": 201,
+                "probability": 2.221
+            },
+            {
+                "value": 202,
+                "probability": 1.133
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life",
+        "enhancedProperties": [
+            {
+                "value": 149,
+                "probability": 0.889
+            },
+            {
+                "value": 150,
+                "probability": 2.339
+            },
+            {
+                "value": 151,
+                "probability": 2.339
+            },
+            {
+                "value": 152,
+                "probability": 2.339
+            },
+            {
+                "value": 153,
+                "probability": 2.339
+            },
+            {
+                "value": 154,
+                "probability": 2.339
+            },
+            {
+                "value": 155,
+                "probability": 2.339
+            },
+            {
+                "value": 156,
+                "probability": 2.339
+            },
+            {
+                "value": 157,
+                "probability": 2.339
+            },
+            {
+                "value": 158,
+                "probability": 2.339
+            },
+            {
+                "value": 159,
+                "probability": 2.339
+            },
+            {
+                "value": 160,
+                "probability": 2.339
+            },
+            {
+                "value": 161,
+                "probability": 2.339
+            },
+            {
+                "value": 162,
+                "probability": 2.339
+            },
+            {
+                "value": 163,
+                "probability": 2.339
+            },
+            {
+                "value": 164,
+                "probability": 2.339
+            },
+            {
+                "value": 165,
+                "probability": 2.339
+            },
+            {
+                "value": 166,
+                "probability": 2.339
+            },
+            {
+                "value": 167,
+                "probability": 2.339
+            },
+            {
+                "value": 168,
+                "probability": 2.339
+            },
+            {
+                "value": 169,
+                "probability": 2.339
+            },
+            {
+                "value": 170,
+                "probability": 2.339
+            },
+            {
+                "value": 171,
+                "probability": 2.339
+            },
+            {
+                "value": 172,
+                "probability": 2.339
+            },
+            {
+                "value": 173,
+                "probability": 2.339
+            },
+            {
+                "value": 174,
+                "probability": 2.339
+            },
+            {
+                "value": 175,
+                "probability": 2.339
+            },
+            {
+                "value": 176,
+                "probability": 2.339
+            },
+            {
+                "value": 177,
+                "probability": 2.339
+            },
+            {
+                "value": 178,
+                "probability": 2.339
+            },
+            {
+                "value": 179,
+                "probability": 2.339
+            },
+            {
+                "value": 180,
+                "probability": 2.339
+            },
+            {
+                "value": 181,
+                "probability": 2.339
+            },
+            {
+                "value": 182,
+                "probability": 2.339
+            },
+            {
+                "value": 183,
+                "probability": 2.339
+            },
+            {
+                "value": 184,
+                "probability": 2.339
+            },
+            {
+                "value": 185,
+                "probability": 2.339
+            },
+            {
+                "value": 186,
+                "probability": 2.339
+            },
+            {
+                "value": 187,
+                "probability": 2.339
+            },
+            {
+                "value": 188,
+                "probability": 2.339
+            },
+            {
+                "value": 189,
+                "probability": 2.339
+            },
+            {
+                "value": 190,
+                "probability": 2.339
+            },
+            {
+                "value": 191,
+                "probability": 2.339
+            },
+            {
+                "value": 192,
+                "probability": 0.889
+            },
+            {
+                "value": 0,
+                "probability": 0
+            },
+            {
+                "value": 0,
+                "probability": 0
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "life_percent",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 20
+            },
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "life_percent",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 20
+            },
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "speed",
+        "enhancedProperties": [
+            {
+                "value": 2,
+                "probability": 33.223
+            },
+            {
+                "value": 3,
+                "probability": 33.223
+            },
+            {
+                "value": 4,
+                "probability": 33.223
+            },
+            {
+                "value": 5,
+                "probability": 0.332
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "speed",
+        "enhancedProperties": [
+            {
+                "value": 1,
+                "probability": 3.833
+            },
+            {
+                "value": 2,
+                "probability": 34.843
+            },
+            {
+                "value": 3,
+                "probability": 34.843
+            },
+            {
+                "value": 4,
+                "probability": 26.481
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "effect_hit",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 20
+            },
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "effect_hit",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 20
+            },
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 20
+            },
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "effect_resistance",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 20
+            },
+            {
+                "value": 5,
+                "probability": 20
+            },
+            {
+                "value": 6,
+                "probability": 20
+            },
+            {
+                "value": 7,
+                "probability": 20
+            },
+            {
+                "value": 8,
+                "probability": 20
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "crit_rate",
+        "enhancedProperties": [
+            {
+                "value": 3,
+                "probability": 33.333
+            },
+            {
+                "value": 4,
+                "probability": 33.333
+            },
+            {
+                "value": 5,
+                "probability": 33.333
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "crit_rate",
+        "enhancedProperties": [
+            {
+                "value": 3,
+                "probability": 33.333
+            },
+            {
+                "value": 4,
+                "probability": 33.333
+            },
+            {
+                "value": 5,
+                "probability": 33.333
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "72-85",
+        "code": "crit_injury",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            },
+            {
+                "value": 7,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "72-85",
+        "code": "crit_injury",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            },
+            {
+                "value": 7,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack",
+        "enhancedProperties": [
+            {
+                "value": 28,
+                "probability": 4.889
+            },
+            {
+                "value": 29,
+                "probability": 8.576
+            },
+            {
+                "value": 30,
+                "probability": 8.576
+            },
+            {
+                "value": 31,
+                "probability": 8.576
+            },
+            {
+                "value": 32,
+                "probability": 8.576
+            },
+            {
+                "value": 33,
+                "probability": 8.576
+            },
+            {
+                "value": 34,
+                "probability": 8.576
+            },
+            {
+                "value": 35,
+                "probability": 8.576
+            },
+            {
+                "value": 36,
+                "probability": 8.576
+            },
+            {
+                "value": 37,
+                "probability": 8.576
+            },
+            {
+                "value": 38,
+                "probability": 8.576
+            },
+            {
+                "value": 39,
+                "probability": 8.576
+            },
+            {
+                "value": 40,
+                "probability": 0.772
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack",
+        "enhancedProperties": [
+            {
+                "value": 27,
+                "probability": 8.955
+            },
+            {
+                "value": 28,
+                "probability": 9.027
+            },
+            {
+                "value": 29,
+                "probability": 9.027
+            },
+            {
+                "value": 30,
+                "probability": 9.027
+            },
+            {
+                "value": 31,
+                "probability": 9.027
+            },
+            {
+                "value": 32,
+                "probability": 9.027
+            },
+            {
+                "value": 33,
+                "probability": 9.027
+            },
+            {
+                "value": 34,
+                "probability": 9.027
+            },
+            {
+                "value": 35,
+                "probability": 9.027
+            },
+            {
+                "value": 36,
+                "probability": 9.027
+            },
+            {
+                "value": 37,
+                "probability": 9.027
+            },
+            {
+                "value": 38,
+                "probability": 0.776
+            },
+            {
+                "value": 0,
+                "probability": 0
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "attack_percent",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            },
+            {
+                "value": 7,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "attack_percent",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            },
+            {
+                "value": 7,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "defense",
+        "enhancedProperties": [
+            {
+                "value": 24,
+                "probability": 16.639
+            },
+            {
+                "value": 25,
+                "probability": 16.639
+            },
+            {
+                "value": 26,
+                "probability": 16.639
+            },
+            {
+                "value": 27,
+                "probability": 16.639
+            },
+            {
+                "value": 28,
+                "probability": 16.639
+            },
+            {
+                "value": 29,
+                "probability": 16.639
+            },
+            {
+                "value": 30,
+                "probability": 0.166
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "defense",
+        "enhancedProperties": [
+            {
+                "value": 22,
+                "probability": 3.671
+            },
+            {
+                "value": 23,
+                "probability": 17.483
+            },
+            {
+                "value": 24,
+                "probability": 17.483
+            },
+            {
+                "value": 25,
+                "probability": 17.483
+            },
+            {
+                "value": 26,
+                "probability": 17.483
+            },
+            {
+                "value": 27,
+                "probability": 17.483
+            },
+            {
+                "value": 28,
+                "probability": 8.916
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "defense_percent",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            },
+            {
+                "value": 7,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "defense_percent",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            },
+            {
+                "value": 7,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life",
+        "enhancedProperties": [
+            {
+                "value": 136,
+                "probability": 1.307
+            },
+            {
+                "value": 137,
+                "probability": 2.563
+            },
+            {
+                "value": 138,
+                "probability": 2.563
+            },
+            {
+                "value": 139,
+                "probability": 2.563
+            },
+            {
+                "value": 140,
+                "probability": 2.563
+            },
+            {
+                "value": 141,
+                "probability": 2.563
+            },
+            {
+                "value": 142,
+                "probability": 2.563
+            },
+            {
+                "value": 143,
+                "probability": 2.563
+            },
+            {
+                "value": 144,
+                "probability": 2.563
+            },
+            {
+                "value": 145,
+                "probability": 2.563
+            },
+            {
+                "value": 146,
+                "probability": 2.563
+            },
+            {
+                "value": 147,
+                "probability": 2.563
+            },
+            {
+                "value": 148,
+                "probability": 2.563
+            },
+            {
+                "value": 149,
+                "probability": 2.563
+            },
+            {
+                "value": 150,
+                "probability": 2.563
+            },
+            {
+                "value": 151,
+                "probability": 2.563
+            },
+            {
+                "value": 152,
+                "probability": 2.563
+            },
+            {
+                "value": 153,
+                "probability": 2.563
+            },
+            {
+                "value": 154,
+                "probability": 2.563
+            },
+            {
+                "value": 155,
+                "probability": 2.563
+            },
+            {
+                "value": 156,
+                "probability": 2.563
+            },
+            {
+                "value": 157,
+                "probability": 2.563
+            },
+            {
+                "value": 158,
+                "probability": 2.563
+            },
+            {
+                "value": 159,
+                "probability": 2.563
+            },
+            {
+                "value": 160,
+                "probability": 2.563
+            },
+            {
+                "value": 161,
+                "probability": 2.563
+            },
+            {
+                "value": 162,
+                "probability": 2.563
+            },
+            {
+                "value": 163,
+                "probability": 2.563
+            },
+            {
+                "value": 164,
+                "probability": 2.563
+            },
+            {
+                "value": 165,
+                "probability": 2.563
+            },
+            {
+                "value": 166,
+                "probability": 2.563
+            },
+            {
+                "value": 167,
+                "probability": 2.563
+            },
+            {
+                "value": 168,
+                "probability": 2.563
+            },
+            {
+                "value": 169,
+                "probability": 2.563
+            },
+            {
+                "value": 170,
+                "probability": 2.563
+            },
+            {
+                "value": 171,
+                "probability": 2.563
+            },
+            {
+                "value": 172,
+                "probability": 2.563
+            },
+            {
+                "value": 173,
+                "probability": 2.563
+            },
+            {
+                "value": 174,
+                "probability": 2.563
+            },
+            {
+                "value": 175,
+                "probability": 1.307
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life",
+        "enhancedProperties": [
+            {
+                "value": 129,
+                "probability": 0.904
+            },
+            {
+                "value": 130,
+                "probability": 2.698
+            },
+            {
+                "value": 131,
+                "probability": 2.698
+            },
+            {
+                "value": 132,
+                "probability": 2.698
+            },
+            {
+                "value": 133,
+                "probability": 2.698
+            },
+            {
+                "value": 134,
+                "probability": 2.698
+            },
+            {
+                "value": 135,
+                "probability": 2.698
+            },
+            {
+                "value": 136,
+                "probability": 2.698
+            },
+            {
+                "value": 137,
+                "probability": 2.698
+            },
+            {
+                "value": 138,
+                "probability": 2.698
+            },
+            {
+                "value": 139,
+                "probability": 2.698
+            },
+            {
+                "value": 140,
+                "probability": 2.698
+            },
+            {
+                "value": 141,
+                "probability": 2.698
+            },
+            {
+                "value": 142,
+                "probability": 2.698
+            },
+            {
+                "value": 143,
+                "probability": 2.698
+            },
+            {
+                "value": 144,
+                "probability": 2.698
+            },
+            {
+                "value": 145,
+                "probability": 2.698
+            },
+            {
+                "value": 146,
+                "probability": 2.698
+            },
+            {
+                "value": 147,
+                "probability": 2.698
+            },
+            {
+                "value": 148,
+                "probability": 2.698
+            },
+            {
+                "value": 149,
+                "probability": 2.698
+            },
+            {
+                "value": 150,
+                "probability": 2.698
+            },
+            {
+                "value": 151,
+                "probability": 2.698
+            },
+            {
+                "value": 152,
+                "probability": 2.698
+            },
+            {
+                "value": 153,
+                "probability": 2.698
+            },
+            {
+                "value": 154,
+                "probability": 2.698
+            },
+            {
+                "value": 155,
+                "probability": 2.698
+            },
+            {
+                "value": 156,
+                "probability": 2.698
+            },
+            {
+                "value": 157,
+                "probability": 2.698
+            },
+            {
+                "value": 158,
+                "probability": 2.698
+            },
+            {
+                "value": 159,
+                "probability": 2.698
+            },
+            {
+                "value": 160,
+                "probability": 2.698
+            },
+            {
+                "value": 161,
+                "probability": 2.698
+            },
+            {
+                "value": 162,
+                "probability": 2.698
+            },
+            {
+                "value": 163,
+                "probability": 2.698
+            },
+            {
+                "value": 164,
+                "probability": 2.698
+            },
+            {
+                "value": 165,
+                "probability": 2.698
+            },
+            {
+                "value": 166,
+                "probability": 1.983
+            },
+            {
+                "value": 0,
+                "probability": 0
+            },
+            {
+                "value": 0,
+                "probability": 0
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "life_percent",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            },
+            {
+                "value": 7,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "life_percent",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            },
+            {
+                "value": 7,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "speed",
+        "enhancedProperties": [
+            {
+                "value": 2,
+                "probability": 49.751
+            },
+            {
+                "value": 3,
+                "probability": 49.751
+            },
+            {
+                "value": 4,
+                "probability": 0.498
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "speed",
+        "enhancedProperties": [
+            {
+                "value": 1,
+                "probability": 5.729
+            },
+            {
+                "value": 2,
+                "probability": 52.083
+            },
+            {
+                "value": 3,
+                "probability": 42.188
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "effect_hit",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            },
+            {
+                "value": 7,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "effect_hit",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            },
+            {
+                "value": 7,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "effect_resistance",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            },
+            {
+                "value": 7,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "effect_resistance",
+        "enhancedProperties": [
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            },
+            {
+                "value": 7,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "crit_rate",
+        "enhancedProperties": [
+            {
+                "value": 2,
+                "probability": 33.333
+            },
+            {
+                "value": 3,
+                "probability": 33.333
+            },
+            {
+                "value": 4,
+                "probability": 33.333
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "crit_rate",
+        "enhancedProperties": [
+            {
+                "value": 2,
+                "probability": 33.333
+            },
+            {
+                "value": 3,
+                "probability": 33.333
+            },
+            {
+                "value": 4,
+                "probability": 33.333
+            }
+        ]
+    },
+    {
+        "quality": "legend",
+        "level": "58-71",
+        "code": "crit_injury",
+        "enhancedProperties": [
+            {
+                "value": 3,
+                "probability": 25
+            },
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            }
+        ]
+    },
+    {
+        "quality": "hero",
+        "level": "58-71",
+        "code": "crit_injury",
+        "enhancedProperties": [
+            {
+                "value": 3,
+                "probability": 25
+            },
+            {
+                "value": 4,
+                "probability": 25
+            },
+            {
+                "value": 5,
+                "probability": 25
+            },
+            {
+                "value": 6,
+                "probability": 25
+            }
+        ]
+    }
+]
