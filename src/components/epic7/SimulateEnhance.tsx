@@ -1,4 +1,4 @@
-import { Box, MenuItem } from '@mui/material';
+import { Box, MenuItem, Typography } from '@mui/material';
 import {
   useEffect, useMemo, useRef, useState,
 } from 'react';
@@ -18,7 +18,7 @@ interface ChartDataItem {
 }
 
 const SimulateEnhance = () => {
-  const [simulateCount, setSimulateCount] = useState<string>('100');
+  const [simulateCount, setSimulateCount] = useState<string>('10000');
   const equipmentErrors = useRecoilValue(equipmentErrorsState);
   const equipmentValue = useRecoilValue(equipmentState);
   const personTemplate = useRecoilValue(personTemplateState);
@@ -47,7 +47,7 @@ const SimulateEnhance = () => {
 
   const enhance = () => {
     setLoading(true);
-    if (workerRef.current && Number(simulateCount) > 10000) {
+    if (workerRef.current) {
       workerRef.current?.postMessage({
         equipment: equipmentValue,
         count: simulateCount,
@@ -99,6 +99,7 @@ const SimulateEnhance = () => {
 
   return (
     <div>
+      <Typography variant="h6">模拟强化</Typography>
       <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
         <CustomTextField
           id="chartDataType"

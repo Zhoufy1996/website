@@ -19,7 +19,8 @@ const CalcScore = () => {
   }, [hasError, equipmentValue, personTemplate]);
 
   return (
-    <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
+    <Box>
+      <Typography variant="h6">结果</Typography>
       {
           hasError ? (
             <div>
