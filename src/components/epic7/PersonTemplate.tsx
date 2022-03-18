@@ -5,7 +5,6 @@ import { personTemplateState } from '../../store/epic7/equipment';
 import { PersonAttributeCode } from '../../types/epic7';
 import { personPropertyOptions } from '../../data/epic7';
 import CustomTextField from './CustomTextField';
-// import PersonTemplateModal from './PersonTemplateMdal';
 
 const PersonTemplate = () => {
   const personTemplate = useRecoilValue(personTemplateState);
@@ -15,7 +14,6 @@ const PersonTemplate = () => {
     <div>
       <Box>
         <Typography component="span" variant="h6">人物面板</Typography>
-        {/* <PersonTemplateModal /> */}
       </Box>
 
       {

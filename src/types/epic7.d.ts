@@ -41,3 +41,8 @@ export interface ProbabilityDataItem {
   code: PropertyCode
   enhancedProbability: EnhancedProbability
 }
+
+export interface PersonTemplatePreset extends PersonTemplate {
+  id: string;
+  name: string;
+}
