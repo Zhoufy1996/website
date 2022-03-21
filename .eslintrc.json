@@ -22,7 +22,9 @@
           "Typography",
           "Box",
           "Paper",
-          "TextField"
+          "TextField",
+          "Button",
+          "Popover"
         ]
       }
     ],
