@@ -2,30 +2,31 @@ import {
   Container, Card, CardContent, TextField, CardActions, Button, Modal,
 } from '@mui/material';
 import { useEffect, useState } from 'react';
-import { useRecoilValue, useSetRecoilState } from 'recoil';
+import { useRecoilState } from 'recoil';
 import {
-  getInitialPersonTemplate, personTemplatePresetArrayState,
-  editTemplateIdState, editTemplateModalVisibleState,
+  personTemplatePresetArrayState,
+  editTemplateIdState,
 } from '../../store/epic7/template';
 import { PersonTemplatePreset } from '../../types/epic7';
+import { getInitialPersonTemplate } from '../../utils/epic7';
 
 const EditTemplateModal = () => {
-  const personTemplatePrestArray = useRecoilValue(personTemplatePresetArrayState);
-  const setPersonTemplatePrestArray = useSetRecoilState(personTemplatePresetArrayState);
-  const editTemplateModalVisible = useRecoilValue(editTemplateModalVisibleState);
-  const setEditTemplateModalVisible = useSetRecoilState(editTemplateModalVisibleState);
+  const [personTemplatePrestArray, setPersonTemplatePrestArray] = useRecoilState(
+    personTemplatePresetArrayState,
+  );
 
-  const editTemplateId = useRecoilValue(editTemplateIdState);
+  const [editTemplateId, setEditTemplateId] = useRecoilState(editTemplateIdState);
 
   const [editTemplate, setEditTemplate] = useState<
   PersonTemplatePreset>(getInitialPersonTemplate());
+
   useEffect(() => {
     setEditTemplate(personTemplatePrestArray.find((item) => item.id === editTemplateId)
     || getInitialPersonTemplate());
   }, [editTemplateId, personTemplatePrestArray]);
 
   const handleCancel = () => {
-    setEditTemplateModalVisible(false);
+    setEditTemplateId('');
   };
 
   const handleSave = () => {
@@ -52,9 +53,11 @@ const EditTemplateModal = () => {
     handleCancel();
   };
 
+  const open = editTemplateId !== '';
+
   return (
     <Modal
-      open={editTemplateModalVisible}
+      open={open}
       onClose={handleCancel}
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
@@ -145,8 +148,8 @@ const EditTemplateModal = () => {
               justifyContent: 'center',
             }}
           >
-            <Button variant="text" size="small" onClick={handleSave}>保存</Button>
             <Button variant="text" size="small" color="error" onClick={handleCancel}>取消</Button>
+            <Button variant="text" size="small" onClick={handleSave}>保存</Button>
           </CardActions>
         </Card>
 

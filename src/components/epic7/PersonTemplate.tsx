@@ -1,46 +1,92 @@
-import { useRecoilValue, useSetRecoilState } from 'recoil';
+import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
 import Typography from '@mui/material/Typography';
-import { Box } from '@mui/material';
-import { personTemplateState } from '../../store/epic7/equipment';
+import {
+  Box, Button, Menu, MenuItem, TextField,
+} from '@mui/material';
+import {
+  usePopupState,
+  bindTrigger,
+  bindPopover,
+} from 'material-ui-popup-state/hooks';
+import { personTemplateState, selectedTemplateIdState } from '../../store/epic7/equipment';
 import { PersonAttributeCode } from '../../types/epic7';
 import { personPropertyOptions } from '../../data/epic7';
-import CustomTextField from './CustomTextField';
+import { personTemplatePresetArrayState } from '../../store/epic7/template';
 
 const PersonTemplate = () => {
   const personTemplate = useRecoilValue(personTemplateState);
-  const setPersonTemplate = useSetRecoilState(personTemplateState);
+  const [personTemplateArray, setPersonTemplateArray] = useRecoilState(
+    personTemplatePresetArrayState,
+  );
 
+  const setSelectedTemplateId = useSetRecoilState(selectedTemplateIdState);
+
+  const popupState = usePopupState({
+    variant: 'popover',
+    popupId: 'template-select',
+  });
+
+  const setPersonTemplate = (code: PersonAttributeCode, value: string) => {
+    setPersonTemplateArray((pre) => {
+      return pre.map((item) => {
+        if (item.id === personTemplate?.id) {
+          return {
+            ...item,
+            [code]: value,
+          };
+        }
+        return item;
+      });
+    });
+  };
   return (
     <div>
       <Box>
         <Typography component="span" variant="h6">人物面板</Typography>
-      </Box>
-
-      {
-          Object.entries(personPropertyOptions).map(([code, options]) => {
+        <Button {...bindTrigger(popupState)}>
+          {personTemplate && personTemplate.name}
+        </Button>
+        <Menu
+          {...bindPopover(popupState)}
+        >
+          {personTemplateArray.map((template) => {
             return (
-              <CustomTextField
-                key={code}
-                id={code}
-                label={options.label}
-                type="number"
-                variant="outlined"
-                value={personTemplate[code as PersonAttributeCode]}
-                inputProps={{
-                  min: 0,
+              <MenuItem
+                selected={template.id === (personTemplate && personTemplate.id)}
+                key={template.id}
+                onClick={() => {
+                  setSelectedTemplateId(template.id);
+                  popupState.close();
                 }}
-                onChange={(e) => {
-                  setPersonTemplate((pre) => {
-                    return {
-                      ...pre,
-                      [code]: e.target.value,
-                    };
-                  });
-                }}
-              />
+              >
+                {template.name}
+              </MenuItem>
             );
-          })
+          })}
+        </Menu>
+      </Box>
+      {
+        personTemplate && Object.entries(personPropertyOptions).map(([code, options]) => {
+          return (
+            <TextField
+              key={code}
+              id={code}
+              size="small"
+              label={options.label}
+              type="number"
+              variant="outlined"
+              value={personTemplate[code as PersonAttributeCode]}
+              inputProps={{
+                min: 0,
+              }}
+              onChange={(e) => {
+                setPersonTemplate(code as PersonAttributeCode, e.target.value);
+              }}
+            />
+          );
+        })
       }
+
     </div>
   );
 };

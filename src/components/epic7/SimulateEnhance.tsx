@@ -1,4 +1,6 @@
-import { Box, MenuItem, Typography } from '@mui/material';
+import {
+  Box, MenuItem, TextField, Typography,
+} from '@mui/material';
 import {
   useEffect, useMemo, useRef, useState,
 } from 'react';
@@ -8,7 +10,6 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { equipmentErrorsState, equipmentState, personTemplateState } from '../../store/epic7/equipment';
 import { Equipment, EquipmentAttributeCode } from '../../types/epic7';
 import { calcEqipmentScore, enhanceMax } from '../../utils/epic7';
-import CustomTextField from './CustomTextField';
 import EquipmentEnhancedChart from './ScoreChart';
 import { equipmentAttributeOptions } from '../../data/epic7';
 
@@ -32,7 +33,7 @@ const SimulateEnhance = () => {
   const workerRef = useRef<Worker>();
   useEffect(() => {
     if (window.Worker) {
-      workerRef.current = new Worker(new URL('./enhance.worker.ts', import.meta.url));
+      workerRef.current = new Worker(new URL('../../utils/enhance.worker.ts', import.meta.url));
       workerRef.current.addEventListener('message', (e) => {
         setEnhancedData(e.data);
         setLoading(false);
@@ -101,11 +102,12 @@ const SimulateEnhance = () => {
     <div>
       <Typography variant="h6">模拟强化</Typography>
       <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
-        <CustomTextField
+        <TextField
           id="chartDataType"
           label="图像x轴"
           type="select"
           select
+          size="small"
           value={chartDataType}
           onChange={(e) => {
             setChartDataType(e.target.value as EquipmentAttributeCode | 'score');
@@ -123,15 +125,15 @@ const SimulateEnhance = () => {
               );
             })
           }
-        </CustomTextField>
-        <CustomTextField
+        </TextField>
+        <TextField
           id="simulateCount"
           label="强化次数"
           type="number"
           inputProps={{
             min: 0,
-            max: 10000,
           }}
+          size="small"
           value={simulateCount}
           onChange={(e) => {
             setSimulateCount(e.target.value);

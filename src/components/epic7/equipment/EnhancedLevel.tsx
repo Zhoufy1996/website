@@ -1,19 +1,20 @@
-import { useRecoilValue, useSetRecoilState } from 'recoil';
-import { MenuItem } from '@mui/material';
-import CustomTextField from '../CustomTextField';
+import { useRecoilState } from 'recoil';
+import { MenuItem, TextField } from '@mui/material';
 import {
   equipmentEnhancedLevelState,
 } from '../../../store/epic7/equipment';
 
 const EnhancedLevel = () => {
-  const equipmentEnhancedLevel = useRecoilValue(equipmentEnhancedLevelState);
-  const setEquipmentEnhancedLevel = useSetRecoilState(equipmentEnhancedLevelState);
+  const [equipmentEnhancedLevel, setEquipmentEnhancedLevel] = useRecoilState(
+    equipmentEnhancedLevelState,
+  );
 
   return (
-    <CustomTextField
+    <TextField
       id="enhancedLevel"
       label="强化等级"
       type="number"
+      size="small"
       value={equipmentEnhancedLevel}
       select
       onChange={(e) => {
@@ -26,7 +27,7 @@ const EnhancedLevel = () => {
       <MenuItem value={9}>9 ~ 11</MenuItem>
       <MenuItem value={12}>12 ~ 14</MenuItem>
       <MenuItem value={15}>15</MenuItem>
-    </CustomTextField>
+    </TextField>
   );
 };
 

@@ -1,12 +1,12 @@
 import {
   Container, Box, Divider,
 } from '@mui/material';
-import CalcScore from '../../components/epic7/CalcScore';
-import Equipment from '../../components/epic7/Equipment';
-import PersonTemplate from '../../components/epic7/PersonTemplate';
-import SimulateEnhance from '../../components/epic7/SimulateEnhance';
+import CalcScore from '../components/epic7/CalcScore';
+import Equipment from '../components/epic7/Equipment';
+import PersonTemplate from '../components/epic7/PersonTemplate';
+import SimulateEnhance from '../components/epic7/SimulateEnhance';
 
-const Epic7Home = () => {
+const EquipmentEnhance = () => {
   return (
     <Container
       sx={(theme) => {
@@ -45,4 +45,4 @@ const Epic7Home = () => {
   );
 };
 
-export default Epic7Home;
+export default EquipmentEnhance;

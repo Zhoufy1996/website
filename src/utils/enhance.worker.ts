@@ -1,4 +1,4 @@
-import { enhanceMax } from '../../utils/epic7';
+import { enhanceMax } from './epic7';
 
 declare let self: Worker;
 

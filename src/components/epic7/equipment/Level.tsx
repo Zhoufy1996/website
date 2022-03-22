@@ -1,6 +1,5 @@
-import { useRecoilValue, useSetRecoilState } from 'recoil';
-import { MenuItem } from '@mui/material';
-import CustomTextField from '../CustomTextField';
+import { useRecoilState } from 'recoil';
+import { MenuItem, TextField } from '@mui/material';
 import {
   equipmentLevelState,
 } from '../../../store/epic7/equipment';
@@ -8,17 +7,17 @@ import { equipmentLevelOptions } from '../../../data/epic7';
 import { EquipmentLevel } from '../../../types/epic7';
 
 const Level = () => {
-  const equipmentLevel = useRecoilValue(equipmentLevelState);
-  const setEquipmentLevelState = useSetRecoilState(equipmentLevelState);
+  const [equipmentLevel, setEquipmentLevel] = useRecoilState(equipmentLevelState);
 
   return (
-    <CustomTextField
+    <TextField
       id="quality"
       label="装备等级"
       select
+      size="small"
       value={equipmentLevel}
       onChange={(e) => {
-        setEquipmentLevelState(e.target.value as EquipmentLevel);
+        setEquipmentLevel(e.target.value as EquipmentLevel);
       }}
     >
       {
@@ -30,7 +29,7 @@ const Level = () => {
               );
             })
         }
-    </CustomTextField>
+    </TextField>
   );
 };
 

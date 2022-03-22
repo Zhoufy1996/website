@@ -1,19 +1,16 @@
 import {
-  Button, Paper,
-  Container, Grid, Typography, IconButton, Popover,
-} from '@mui/material';
-import { useSetRecoilState, useRecoilValue } from 'recoil';
-import { useEffect } from 'react';
-import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
-import {
   usePopupState,
   bindTrigger,
   bindPopover,
 } from 'material-ui-popup-state/hooks';
-import EditTemplateModal from '../../components/epic7/EditTemplateModal';
-import { editTemplateModalVisibleState, personTemplatePresetArrayState, editTemplateIdState } from '../../store/epic7/template';
-import { setLocalStorage } from '../../utils/localStorage';
+import {
+  Button, Paper,
+  Grid, Typography, Popover,
+} from '@mui/material';
+import { useSetRecoilState } from 'recoil';
+import { editTemplateIdState, personTemplatePresetArrayState } from '../../store/epic7/template';
 import { PersonTemplatePreset } from '../../types/epic7';
+import SelectButton from './SelectButton';
 
 interface TemplatePaperProps {
   template:PersonTemplatePreset;
@@ -26,11 +23,10 @@ const TemplatePaper = ({ template, showDelete }: TemplatePaperProps) => {
     popupId: template.id,
   });
   const setEditTemplateId = useSetRecoilState(editTemplateIdState);
-  const setEditTemplateModalVisible = useSetRecoilState(editTemplateModalVisibleState);
   const setPersonTemplatePrestArray = useSetRecoilState(personTemplatePresetArrayState);
+
   const handleEdit = (id: string) => {
     setEditTemplateId(id);
-    setEditTemplateModalVisible(true);
   };
   const handleDelete = (id: string) => {
     setPersonTemplatePrestArray((pre) => {
@@ -68,8 +64,7 @@ const TemplatePaper = ({ template, showDelete }: TemplatePaperProps) => {
           <Typography>{`生命力: ${template.life}`}</Typography>
         </Grid>
         <Grid item xs={3}>
-
-          <Button variant="text" size="small">使用</Button>
+          <SelectButton templateId={template.id} />
           <Button variant="text" size="small" onClick={() => handleEdit(template.id)}>编辑</Button>
           {
           showDelete && (
@@ -97,56 +92,4 @@ const TemplatePaper = ({ template, showDelete }: TemplatePaperProps) => {
     </Paper>
   );
 };
-
-const PersonTemplateModal = () => {
-  const personTemplatePrestArray = useRecoilValue(personTemplatePresetArrayState);
-  const setEditTemplateId = useSetRecoilState(editTemplateIdState);
-  const setEditTemplateModalVisible = useSetRecoilState(editTemplateModalVisibleState);
-  useEffect(() => {
-    setLocalStorage('personTemplateList', JSON.stringify(personTemplatePrestArray));
-  }, [personTemplatePrestArray]);
-  const handleAdd = () => {
-    setEditTemplateId('');
-    setEditTemplateModalVisible(true);
-  };
-  return (
-
-    <Container
-      sx={{
-        width: '100%',
-        height: '100%',
-        overflow: 'auto',
-        p: 1,
-      }}
-    >
-      <Grid container spacing={1}>
-        {
-              personTemplatePrestArray.map((template) => {
-                return (
-                  <Grid item key={template.id} xs={12}>
-                    <TemplatePaper
-                      template={template}
-                      showDelete={personTemplatePrestArray.length > 1}
-                    />
-                  </Grid>
-                );
-              })
-            }
-      </Grid>
-
-      <IconButton
-        sx={{
-          position: 'fixed', right: -10, top: -5, opacity: 0.2,
-        }}
-        onClick={handleAdd}
-        color="primary"
-        size="large"
-      >
-        <AddCircleOutlineIcon />
-      </IconButton>
-      <EditTemplateModal />
-    </Container>
-  );
-};
-
-export default PersonTemplateModal;
+export default TemplatePaper;

@@ -1,8 +1,7 @@
 import { useEffect } from 'react';
-import { useRecoilValue, useSetRecoilState } from 'recoil';
-import { MenuItem } from '@mui/material';
+import { useRecoilState, useSetRecoilState } from 'recoil';
+import { MenuItem, TextField } from '@mui/material';
 import { equipmentTypeOptions } from '../../../data/epic7';
-import CustomTextField from '../CustomTextField';
 import {
   equipmentTypeState,
   equipmentAttributeState,
@@ -11,8 +10,7 @@ import {
 import { EquipmentType } from '../../../types/epic7';
 
 const Type = () => {
-  const equipmentType = useRecoilValue(equipmentTypeState);
-  const setEquipmentType = useSetRecoilState(equipmentTypeState);
+  const [equipmentType, setEquipmentType] = useRecoilState(equipmentTypeState);
 
   const setEquipmentPrimaryAttribute = useSetRecoilState(equipmentPrimaryAttributeState);
   const setEquipmentAttribute = useSetRecoilState(equipmentAttributeState);
@@ -36,10 +34,11 @@ const Type = () => {
   }, [setEquipmentAttribute, equipmentType, setEquipmentPrimaryAttribute]);
 
   return (
-    <CustomTextField
+    <TextField
       id="type"
       label="类型"
       select
+      size="small"
       value={equipmentType}
       onChange={(e) => {
         const type = e.target.value as EquipmentType;
@@ -55,7 +54,7 @@ const Type = () => {
           );
         })
     }
-    </CustomTextField>
+    </TextField>
   );
 };
 

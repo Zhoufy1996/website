@@ -1,7 +1,6 @@
 import { useEffect, useMemo } from 'react';
-import { useRecoilValue, useSetRecoilState } from 'recoil';
-import { MenuItem } from '@mui/material';
-import CustomTextField from '../CustomTextField';
+import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
+import { MenuItem, TextField } from '@mui/material';
 import {
   equipmentAttributeState, equipmentPrimaryAttributeState, equipmentTypeState,
 } from '../../../store/epic7/equipment';
@@ -9,8 +8,9 @@ import { EquipmentAttributeCode } from '../../../types/epic7';
 import { equipmentAttributeOptions, equipmentTypeOptions } from '../../../data/epic7';
 
 const PrimaryProperty = () => {
-  const equipmentPrimaryProperty = useRecoilValue(equipmentPrimaryAttributeState);
-  const setEquipmentPrimaryProperty = useSetRecoilState(equipmentPrimaryAttributeState);
+  const [equipmentPrimaryProperty, setEquipmentPrimaryProperty] = useRecoilState(
+    equipmentPrimaryAttributeState,
+  );
 
   const equipmentType = useRecoilValue(equipmentTypeState);
   const setEquipmentProperty = useSetRecoilState(equipmentAttributeState);
@@ -34,10 +34,11 @@ const PrimaryProperty = () => {
   }, [equipmentType]);
 
   return (
-    <CustomTextField
+    <TextField
       id="primaryProperty"
       label="主属性"
       select
+      size="small"
       value={equipmentPrimaryProperty}
       onChange={(e) => {
         setEquipmentPrimaryProperty(e.target.value as EquipmentAttributeCode);
@@ -52,7 +53,7 @@ const PrimaryProperty = () => {
         );
       })
     }
-    </CustomTextField>
+    </TextField>
   );
 };
 

@@ -1,6 +1,5 @@
-import { useRecoilValue, useSetRecoilState } from 'recoil';
-import { MenuItem } from '@mui/material';
-import CustomTextField from '../CustomTextField';
+import { useRecoilState } from 'recoil';
+import { MenuItem, TextField } from '@mui/material';
 import {
   equipmentQualityState,
 } from '../../../store/epic7/equipment';
@@ -8,15 +7,15 @@ import { equipmentQualityOptions } from '../../../data/epic7';
 import { EquipmentQuality } from '../../../types/epic7';
 
 const Quality = () => {
-  const equipmentQuality = useRecoilValue(equipmentQualityState);
-  const setEquipmentQuality = useSetRecoilState(equipmentQualityState);
+  const [equipmentQuality, setEquipmentQuality] = useRecoilState(equipmentQualityState);
 
   return (
-    <CustomTextField
+    <TextField
       id="quality"
       label="装备品质"
       select
       value={equipmentQuality}
+      size="small"
       onChange={(e) => {
         setEquipmentQuality(e.target.value as EquipmentQuality);
       }}
@@ -30,7 +29,7 @@ const Quality = () => {
               );
             })
         }
-    </CustomTextField>
+    </TextField>
   );
 };
 

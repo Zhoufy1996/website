@@ -1,12 +1,18 @@
 import { atom, selector } from 'recoil';
-import { Equipment, EquipmentAttributeCode, PersonTemplate } from '../../types/epic7';
+import { Equipment, EquipmentAttributeCode } from '../../types/epic7';
+import { getLocalStorage } from '../../utils/localStorage';
+import { personTemplatePresetArrayState } from './template';
 
-export const personTemplateState = atom<PersonTemplate>({
+export const selectedTemplateIdState = atom<string>({
+  key: 'selectedTemplateIdState',
+  default: getLocalStorage('selectedTemplateId') || '',
+});
+
+export const personTemplateState = selector({
   key: 'personTemplateState',
-  default: {
-    attack: '1000',
-    defense: '500',
-    life: '5000',
+  get: ({ get }) => {
+    const selectedId = get(selectedTemplateIdState);
+    return get(personTemplatePresetArrayState).find((item) => item.id === selectedId);
   },
 });
 

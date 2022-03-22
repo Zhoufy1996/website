@@ -24,7 +24,8 @@
           "Paper",
           "TextField",
           "Button",
-          "Popover"
+          "Popover",
+          "Menu"
         ]
       }
     ],

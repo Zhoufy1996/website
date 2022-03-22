@@ -1,8 +1,11 @@
+import { v4 as uuidv4 } from 'uuid';
 import {
-  Equipment, EquipmentAttributeCode, EquipmentSubAttributeItem, PersonTemplate,
+  Equipment, EquipmentAttributeCode,
+  EquipmentSubAttributeItem, PersonTemplate, PersonTemplatePreset,
 } from '../types/epic7';
 import { randomSelect } from './helper';
 import enhancedProbabilityData from '../data/epci7_probability_data.json';
+import { getLocalStorage } from './localStorage';
 
 export const propertyArray: EquipmentAttributeCode[] = [
   'attack',
@@ -21,7 +24,7 @@ export const propertyArray: EquipmentAttributeCode[] = [
 interface CalcEqipmentScore {
   (props: {
     equipmentProperty: Equipment;
-    personTemplate: PersonTemplate
+    personTemplate?: PersonTemplate
   }): number
 }
 
@@ -33,12 +36,14 @@ interface CalcEqipmentScore {
 export const calcEqipmentScore: CalcEqipmentScore = ({ equipmentProperty, personTemplate }) => {
   type ScoreCalcObj = Record<EquipmentAttributeCode, (value: number) => number>;
   const scoreCalcObj: ScoreCalcObj = {
-    attack: (value) => (personTemplate.attack ? (value * 100) / Number(personTemplate.attack) : 0),
+    attack: (value) => (personTemplate && personTemplate.attack
+      ? (value * 100) / Number(personTemplate.attack) : 0),
     attack_percent: (value) => value,
-    defense: (value) => (personTemplate.defense
+    defense: (value) => (personTemplate && personTemplate.defense
       ? (value * 100) / Number(personTemplate.defense) : 0),
     defense_percent: (value) => value,
-    life: (value) => (personTemplate.life ? (value * 100) / Number(personTemplate.life) : 0),
+    life: (value) => (personTemplate && personTemplate.life
+      ? (value * 100) / Number(personTemplate.life) : 0),
     life_percent: (value) => value,
     speed: (value) => value * 2,
     crit_rate: (value) => (value * 8) / 5,
@@ -222,4 +227,23 @@ export const BrushBookmark = ({
     normalBookmarkCount: normalBookmarkCountTemp,
     mysteriousBookmarkCount: mysteriousBookCountTemp,
   };
+};
+
+export const getInitialPersonTemplate = ():PersonTemplatePreset => {
+  return {
+    id: uuidv4(),
+    name: '默认模板',
+    attack: '1000',
+    defense: '500',
+    life: '5000',
+  };
+};
+
+export const getInitialPersonTemplateList = (): PersonTemplatePreset[] => {
+  const localData = getLocalStorage('personTemplates');
+  if (localData) {
+    return JSON.parse(localData);
+  }
+
+  return [getInitialPersonTemplate()];
 };
