@@ -1,30 +1,19 @@
 import {
-  Container, Grid, IconButton,
+  Grid,
 } from '@mui/material';
-import { useSetRecoilState, useRecoilValue } from 'recoil';
-import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+import { useRecoilValue } from 'recoil';
 
-import { v4 as uuidv4 } from 'uuid';
 import EditTemplateModal from '../components/epic7/templatesetting/EditTemplateModal';
-import { personTemplatePresetArrayState, editTemplateIdState } from '../store/epic7/template';
+import { personTemplatePresetArrayState } from '../store/epic7/template';
 import TemplatePaper from '../components/epic7/templatesetting/TemplatePaper';
+import AddButton from '../components/epic7/templatesetting/AddButton';
 
 const TemplateSetting = () => {
   const personTemplatePrestArray = useRecoilValue(personTemplatePresetArrayState);
-  const setEditTemplateId = useSetRecoilState(editTemplateIdState);
 
-  const handleAdd = () => {
-    setEditTemplateId(uuidv4());
-  };
   return (
-    <Container
-      sx={{
-        width: '100%',
-        height: '100%',
-        overflow: 'auto',
-        p: 1,
-      }}
-    >
+    <>
+      <AddButton />
       <Grid container spacing={1}>
         {
               personTemplatePrestArray.map((template) => {
@@ -40,18 +29,8 @@ const TemplateSetting = () => {
             }
       </Grid>
 
-      <IconButton
-        sx={{
-          position: 'fixed', right: -10, top: -5, opacity: 0.2,
-        }}
-        onClick={handleAdd}
-        color="primary"
-        size="large"
-      >
-        <AddCircleOutlineIcon />
-      </IconButton>
       <EditTemplateModal />
-    </Container>
+    </>
   );
 };
 

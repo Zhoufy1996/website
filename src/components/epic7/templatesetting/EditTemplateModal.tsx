@@ -1,5 +1,5 @@
 import {
-  Container, Card, CardContent, TextField, CardActions, Button, Modal,
+  Box, Card, CardContent, CardActions, Button, Modal,
 } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { useRecoilState } from 'recoil';
@@ -9,6 +9,7 @@ import {
 } from '../../../store/epic7/template';
 import { PersonTemplatePreset } from '../../../types/epic7';
 import { getInitialPersonTemplate } from '../../../utils/epic7';
+import CustomTextField from '../../biz/CustomTextFiled';
 
 const EditTemplateModal = () => {
   const [personTemplatePrestArray, setPersonTemplatePrestArray] = useRecoilState(
@@ -63,10 +64,14 @@ const EditTemplateModal = () => {
       aria-describedby="modal-modal-description"
 
     >
-      <Container
+      <Box
         sx={{
           top: '10%',
           position: 'absolute',
+          left: '50%',
+          transform: 'translate(-50%, 0)',
+          width: '80%',
+          maxWidth: 500,
         }}
       >
 
@@ -84,7 +89,7 @@ const EditTemplateModal = () => {
               };
             }}
           >
-            <TextField
+            <CustomTextField
               type="text"
               value={editTemplate.name}
               label="名称"
@@ -98,7 +103,7 @@ const EditTemplateModal = () => {
               }}
             />
 
-            <TextField
+            <CustomTextField
               type="number"
               value={editTemplate.attack}
               label="攻击力"
@@ -112,7 +117,7 @@ const EditTemplateModal = () => {
               }}
             />
 
-            <TextField
+            <CustomTextField
               type="number"
               value={editTemplate.defense}
               label="防御力"
@@ -126,7 +131,7 @@ const EditTemplateModal = () => {
               }}
             />
 
-            <TextField
+            <CustomTextField
               type="number"
               value={editTemplate.life}
               label="生命力"
@@ -153,7 +158,7 @@ const EditTemplateModal = () => {
           </CardActions>
         </Card>
 
-      </Container>
+      </Box>
     </Modal>
 
   );

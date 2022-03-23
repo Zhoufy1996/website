@@ -1,20 +1,20 @@
 import { useRecoilState } from 'recoil';
-import { MenuItem, TextField } from '@mui/material';
+import { MenuItem } from '@mui/material';
 import { equipmentTypeOptions } from '../../../../data/epic7';
 import {
   equipmentTypeState,
 } from '../../../../store/epic7/equipment';
 import { EquipmentType } from '../../../../types/epic7';
+import CustomTextField from '../../../biz/CustomTextFiled';
 
 const Type = () => {
   const [equipmentType, setEquipmentType] = useRecoilState(equipmentTypeState);
 
   return (
-    <TextField
+    <CustomTextField
       id="type"
       label="类型"
       select
-      size="small"
       value={equipmentType}
       onChange={(e) => {
         const type = e.target.value as EquipmentType;
@@ -30,7 +30,7 @@ const Type = () => {
           );
         })
     }
-    </TextField>
+    </CustomTextField>
   );
 };
 

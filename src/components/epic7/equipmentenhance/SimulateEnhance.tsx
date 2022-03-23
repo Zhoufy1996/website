@@ -1,17 +1,20 @@
 import {
-  Box, MenuItem, TextField, Typography,
+  Box, MenuItem, Typography,
 } from '@mui/material';
 import {
   useEffect, useMemo, useRef, useState,
 } from 'react';
-import { useRecoilValue } from 'recoil';
+import { useRecoilState, useRecoilValue } from 'recoil';
 import LoadingButton from '@mui/lab/LoadingButton';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { equipmentErrorsState, equipmentState, personTemplateState } from '../../../store/epic7/equipment';
-import { Equipment, EquipmentAttributeCode } from '../../../types/epic7';
+import {
+  chartDataTypeState, enhancedDataState, equipmentErrorsState, equipmentState, personTemplateState,
+} from '../../../store/epic7/equipment';
+import { EquipmentAttributeCode } from '../../../types/epic7';
 import { calcEqipmentScore, enhanceMax } from '../../../utils/epic7';
 import EquipmentEnhancedChart from './ScoreChart';
 import { equipmentAttributeOptions } from '../../../data/epic7';
+import CustomTextField from '../../biz/CustomTextFiled';
 
 interface ChartDataItem {
   score: number;
@@ -24,13 +27,14 @@ const SimulateEnhance = () => {
   const equipmentValue = useRecoilValue(equipmentState);
   const personTemplate = useRecoilValue(personTemplateState);
 
-  const [enhancedData, setEnhancedData] = useState<Equipment[]>([]);
+  const [enhancedData, setEnhancedData] = useRecoilState(enhancedDataState);
 
   const [loading, setLoading] = useState<boolean>(false);
 
-  const [chartDataType, setChartDataType] = useState <EquipmentAttributeCode | 'score'>('score');
+  const [chartDataType, setChartDataType] = useRecoilState(chartDataTypeState);
 
   const workerRef = useRef<Worker>();
+
   useEffect(() => {
     if (window.Worker) {
       workerRef.current = new Worker(new URL('../../../utils/enhance.worker.ts', import.meta.url));
@@ -44,7 +48,7 @@ const SimulateEnhance = () => {
       };
     }
     return () => {};
-  }, []);
+  }, [setEnhancedData]);
 
   const enhance = () => {
     setLoading(true);
@@ -102,12 +106,11 @@ const SimulateEnhance = () => {
     <div>
       <Typography variant="h6">模拟强化</Typography>
       <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
-        <TextField
+        <CustomTextField
           id="chartDataType"
           label="图像x轴"
           type="select"
           select
-          size="small"
           value={chartDataType}
           onChange={(e) => {
             setChartDataType(e.target.value as EquipmentAttributeCode | 'score');
@@ -125,15 +128,14 @@ const SimulateEnhance = () => {
               );
             })
           }
-        </TextField>
-        <TextField
+        </CustomTextField>
+        <CustomTextField
           id="simulateCount"
           label="强化次数"
           type="number"
           inputProps={{
             min: 0,
           }}
-          size="small"
           value={simulateCount}
           onChange={(e) => {
             setSimulateCount(e.target.value);

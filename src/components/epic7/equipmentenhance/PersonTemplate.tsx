@@ -1,7 +1,7 @@
 import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
 import Typography from '@mui/material/Typography';
 import {
-  Box, Button, Menu, MenuItem, TextField,
+  Box, Button, Menu, MenuItem,
 } from '@mui/material';
 import {
   usePopupState,
@@ -12,6 +12,7 @@ import { personTemplateState, selectedTemplateIdState } from '../../../store/epi
 import { PersonAttributeCode } from '../../../types/epic7';
 import { personPropertyOptions } from '../../../data/epic7';
 import { personTemplatePresetArrayState } from '../../../store/epic7/template';
+import CustomTextField from '../../biz/CustomTextFiled';
 
 const PersonTemplate = () => {
   const personTemplate = useRecoilValue(personTemplateState);
@@ -68,10 +69,9 @@ const PersonTemplate = () => {
       {
         personTemplate && Object.entries(personPropertyOptions).map(([code, options]) => {
           return (
-            <TextField
+            <CustomTextField
               key={code}
               id={code}
-              size="small"
               label={options.label}
               type="number"
               variant="outlined"

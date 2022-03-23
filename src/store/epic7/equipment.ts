@@ -97,3 +97,13 @@ export const equipmentErrorsState = selector<string[]>({
     return errors;
   },
 });
+
+export const chartDataTypeState = atom<EquipmentAttributeCode | 'score'>({
+  key: 'chartDataTypeState',
+  default: 'score',
+});
+
+export const enhancedDataState = atom<Equipment[]>({
+  key: 'enhancedDataState',
+  default: [],
+});

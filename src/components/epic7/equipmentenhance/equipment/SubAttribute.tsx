@@ -1,4 +1,3 @@
-import { TextField } from '@mui/material';
 import { useRecoilState, useRecoilValue } from 'recoil';
 import { equipmentTypeOptions, equipmentAttributeOptions } from '../../../../data/epic7';
 import {
@@ -7,6 +6,7 @@ import {
   equipmentTypeState,
 } from '../../../../store/epic7/equipment';
 import { EquipmentAttributeCode } from '../../../../types/epic7';
+import CustomTextField from '../../../biz/CustomTextFiled';
 
 const SubProperty = () => {
   const equipmentType = useRecoilValue(equipmentTypeState);
@@ -24,13 +24,12 @@ const SubProperty = () => {
         })
         .map(([code, options]) => {
           return (
-            <TextField
+            <CustomTextField
               key={code}
               id={code}
               label={options.label}
               type="number"
               variant="outlined"
-              size="small"
               value={equipmentAttribute[code as EquipmentAttributeCode]}
               onChange={(e) => {
                 setEquipmenAttribute((pre) => {
