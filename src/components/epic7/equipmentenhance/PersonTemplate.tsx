@@ -8,10 +8,10 @@ import {
   bindTrigger,
   bindPopover,
 } from 'material-ui-popup-state/hooks';
-import { personTemplateState, selectedTemplateIdState } from '../../store/epic7/equipment';
-import { PersonAttributeCode } from '../../types/epic7';
-import { personPropertyOptions } from '../../data/epic7';
-import { personTemplatePresetArrayState } from '../../store/epic7/template';
+import { personTemplateState, selectedTemplateIdState } from '../../../store/epic7/equipment';
+import { PersonAttributeCode } from '../../../types/epic7';
+import { personPropertyOptions } from '../../../data/epic7';
+import { personTemplatePresetArrayState } from '../../../store/epic7/template';
 
 const PersonTemplate = () => {
   const personTemplate = useRecoilValue(personTemplateState);
@@ -44,7 +44,7 @@ const PersonTemplate = () => {
       <Box>
         <Typography component="span" variant="h6">人物面板</Typography>
         <Button {...bindTrigger(popupState)}>
-          {personTemplate && personTemplate.name}
+          {(personTemplate && personTemplate.name) || ''}
         </Button>
         <Menu
           {...bindPopover(popupState)}

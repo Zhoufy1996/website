@@ -2,10 +2,10 @@ import {
   Divider, Typography,
 } from '@mui/material';
 import EnhancedLevel from './equipment/EnhancedLevel';
-import SubProperty from './equipment/SubProperty';
+import SubProperty from './equipment/SubAttribute';
 import Quality from './equipment/Quality';
 import Type from './equipment/Type';
-import PrimaryProperty from './equipment/PrimaryProperty';
+import PrimaryProperty from './equipment/PrimaryAttribute';
 import Level from './equipment/Level';
 
 const Equipment = () => {

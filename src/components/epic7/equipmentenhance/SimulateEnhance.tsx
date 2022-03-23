@@ -7,11 +7,11 @@ import {
 import { useRecoilValue } from 'recoil';
 import LoadingButton from '@mui/lab/LoadingButton';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { equipmentErrorsState, equipmentState, personTemplateState } from '../../store/epic7/equipment';
-import { Equipment, EquipmentAttributeCode } from '../../types/epic7';
-import { calcEqipmentScore, enhanceMax } from '../../utils/epic7';
+import { equipmentErrorsState, equipmentState, personTemplateState } from '../../../store/epic7/equipment';
+import { Equipment, EquipmentAttributeCode } from '../../../types/epic7';
+import { calcEqipmentScore, enhanceMax } from '../../../utils/epic7';
 import EquipmentEnhancedChart from './ScoreChart';
-import { equipmentAttributeOptions } from '../../data/epic7';
+import { equipmentAttributeOptions } from '../../../data/epic7';
 
 interface ChartDataItem {
   score: number;
@@ -33,7 +33,7 @@ const SimulateEnhance = () => {
   const workerRef = useRef<Worker>();
   useEffect(() => {
     if (window.Worker) {
-      workerRef.current = new Worker(new URL('../../utils/enhance.worker.ts', import.meta.url));
+      workerRef.current = new Worker(new URL('../../../utils/enhance.worker.ts', import.meta.url));
       workerRef.current.addEventListener('message', (e) => {
         setEnhancedData(e.data);
         setLoading(false);

@@ -1,12 +1,12 @@
 import { TextField } from '@mui/material';
 import { useRecoilState, useRecoilValue } from 'recoil';
-import { equipmentTypeOptions, equipmentAttributeOptions } from '../../../data/epic7';
+import { equipmentTypeOptions, equipmentAttributeOptions } from '../../../../data/epic7';
 import {
   equipmentAttributeState,
   equipmentPrimaryAttributeState,
   equipmentTypeState,
-} from '../../../store/epic7/equipment';
-import { EquipmentAttributeCode } from '../../../types/epic7';
+} from '../../../../store/epic7/equipment';
+import { EquipmentAttributeCode } from '../../../../types/epic7';
 
 const SubProperty = () => {
   const equipmentType = useRecoilValue(equipmentTypeState);

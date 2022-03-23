@@ -6,9 +6,9 @@ import { useRecoilState } from 'recoil';
 import {
   personTemplatePresetArrayState,
   editTemplateIdState,
-} from '../../store/epic7/template';
-import { PersonTemplatePreset } from '../../types/epic7';
-import { getInitialPersonTemplate } from '../../utils/epic7';
+} from '../../../store/epic7/template';
+import { PersonTemplatePreset } from '../../../types/epic7';
+import { getInitialPersonTemplate } from '../../../utils/epic7';
 
 const EditTemplateModal = () => {
   const [personTemplatePrestArray, setPersonTemplatePrestArray] = useRecoilState(

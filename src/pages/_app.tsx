@@ -7,7 +7,7 @@ import { useRouter } from 'next/router';
 import { RecoilRoot } from 'recoil';
 import { ThemeProvider } from '@emotion/react';
 import theme from '../utils/theme';
-import SyncTemplate from '../components/epic7/SyncTemplate';
+import RecoilEffects from '../components/epic7/RecoilEffects';
 
 // https://stackoverflow.com/questions/61024356/how-to-use-theme-in-material-ui-with-react-next-js
 function MyApp({ Component, pageProps }: AppProps) {
@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <RecoilRoot>
           <Box sx={{ width: '100%', paddingBottom: '40px' }}>
             <Component {...pageProps} />
-            <SyncTemplate />
+            <RecoilEffects />
             <Paper
               sx={{
                 position: 'fixed', bottom: 0, left: 0, right: 0,

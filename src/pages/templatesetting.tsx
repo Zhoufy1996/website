@@ -5,9 +5,9 @@ import { useSetRecoilState, useRecoilValue } from 'recoil';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 
 import { v4 as uuidv4 } from 'uuid';
-import EditTemplateModal from '../components/epic7/EditTemplateModal';
+import EditTemplateModal from '../components/epic7/templatesetting/EditTemplateModal';
 import { personTemplatePresetArrayState, editTemplateIdState } from '../store/epic7/template';
-import TemplatePaper from '../components/epic7/TemplatePaper';
+import TemplatePaper from '../components/epic7/templatesetting/TemplatePaper';
 
 const TemplateSetting = () => {
   const personTemplatePrestArray = useRecoilValue(personTemplatePresetArrayState);

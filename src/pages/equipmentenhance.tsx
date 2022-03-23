@@ -1,10 +1,10 @@
 import {
   Container, Box, Divider,
 } from '@mui/material';
-import CalcScore from '../components/epic7/CalcScore';
-import Equipment from '../components/epic7/Equipment';
-import PersonTemplate from '../components/epic7/PersonTemplate';
-import SimulateEnhance from '../components/epic7/SimulateEnhance';
+import CalcScore from '../components/epic7/equipmentenhance/CalcScore';
+import Equipment from '../components/epic7/equipmentenhance/Equipment';
+import PersonTemplate from '../components/epic7/equipmentenhance/PersonTemplate';
+import SimulateEnhance from '../components/epic7/equipmentenhance/SimulateEnhance';
 
 const EquipmentEnhance = () => {
   return (

@@ -8,8 +8,8 @@ import {
   Grid, Typography, Popover,
 } from '@mui/material';
 import { useSetRecoilState } from 'recoil';
-import { editTemplateIdState, personTemplatePresetArrayState } from '../../store/epic7/template';
-import { PersonTemplatePreset } from '../../types/epic7';
+import { editTemplateIdState, personTemplatePresetArrayState } from '../../../store/epic7/template';
+import { PersonTemplatePreset } from '../../../types/epic7';
 import SelectButton from './SelectButton';
 
 interface TemplatePaperProps {

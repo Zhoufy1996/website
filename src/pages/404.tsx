@@ -6,11 +6,7 @@ const Page404 = () => {
   useEffect(() => {
     router.push('/equipmentenhance');
   }, [router]);
-  return (
-    <div>
-      404, not found page ...
-    </div>
-  );
+  return null;
 };
 
 export default Page404;

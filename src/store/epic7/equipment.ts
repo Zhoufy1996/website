@@ -1,11 +1,10 @@
 import { atom, selector } from 'recoil';
 import { Equipment, EquipmentAttributeCode } from '../../types/epic7';
-import { getLocalStorage } from '../../utils/localStorage';
 import { personTemplatePresetArrayState } from './template';
 
 export const selectedTemplateIdState = atom<string>({
   key: 'selectedTemplateIdState',
-  default: getLocalStorage('selectedTemplateId') || '',
+  default: '',
 });
 
 export const personTemplateState = selector({

@@ -2,7 +2,7 @@ import { useRecoilState } from 'recoil';
 import { MenuItem, TextField } from '@mui/material';
 import {
   equipmentEnhancedLevelState,
-} from '../../../store/epic7/equipment';
+} from '../../../../store/epic7/equipment';
 
 const EnhancedLevel = () => {
   const [equipmentEnhancedLevel, setEquipmentEnhancedLevel] = useRecoilState(

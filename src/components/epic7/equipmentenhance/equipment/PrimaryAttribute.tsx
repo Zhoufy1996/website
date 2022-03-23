@@ -3,9 +3,9 @@ import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
 import { MenuItem, TextField } from '@mui/material';
 import {
   equipmentAttributeState, equipmentPrimaryAttributeState, equipmentTypeState,
-} from '../../../store/epic7/equipment';
-import { EquipmentAttributeCode } from '../../../types/epic7';
-import { equipmentAttributeOptions, equipmentTypeOptions } from '../../../data/epic7';
+} from '../../../../store/epic7/equipment';
+import { EquipmentAttributeCode } from '../../../../types/epic7';
+import { equipmentAttributeOptions, equipmentTypeOptions } from '../../../../data/epic7';
 
 const PrimaryProperty = () => {
   const [equipmentPrimaryProperty, setEquipmentPrimaryProperty] = useRecoilState(

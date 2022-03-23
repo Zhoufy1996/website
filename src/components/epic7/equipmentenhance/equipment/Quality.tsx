@@ -2,9 +2,9 @@ import { useRecoilState } from 'recoil';
 import { MenuItem, TextField } from '@mui/material';
 import {
   equipmentQualityState,
-} from '../../../store/epic7/equipment';
-import { equipmentQualityOptions } from '../../../data/epic7';
-import { EquipmentQuality } from '../../../types/epic7';
+} from '../../../../store/epic7/equipment';
+import { equipmentQualityOptions } from '../../../../data/epic7';
+import { EquipmentQuality } from '../../../../types/epic7';
 
 const Quality = () => {
   const [equipmentQuality, setEquipmentQuality] = useRecoilState(equipmentQualityState);

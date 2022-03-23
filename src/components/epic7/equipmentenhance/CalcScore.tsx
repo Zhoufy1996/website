@@ -1,8 +1,8 @@
 import { Box, Typography } from '@mui/material';
 import { useMemo } from 'react';
 import { useRecoilValue } from 'recoil';
-import { equipmentErrorsState, equipmentState, personTemplateState } from '../../store/epic7/equipment';
-import { calcEqipmentScore } from '../../utils/epic7';
+import { equipmentErrorsState, equipmentState, personTemplateState } from '../../../store/epic7/equipment';
+import { calcEqipmentScore } from '../../../utils/epic7';
 
 const CalcScore = () => {
   const equipmentErrors = useRecoilValue(equipmentErrorsState);
