@@ -6,7 +6,7 @@ const RootContainer = ({ children }: { children:React.ReactNode }) => {
     <Container
       sx={(theme) => ({
         p: 1,
-        paddingBottom: '70px',
+        paddingBottom: '90px',
         [theme.breakpoints.up('sm')]: {
           paddingBottom: '40px',
         },

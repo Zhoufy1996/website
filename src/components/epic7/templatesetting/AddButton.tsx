@@ -1,14 +1,16 @@
 import {
-  IconButton, useTheme, useMediaQuery, Button,
+  useTheme, useMediaQuery, Button, Fab,
 } from '@mui/material';
 import { useSetRecoilState } from 'recoil';
-import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+import AddIcon from '@mui/icons-material/Add';
 import { v4 as uuidv4 } from 'uuid';
+import { ReactEventHandler } from 'react';
 import { editTemplateIdState } from '../../../store/epic7/template';
 
 const AddButton = () => {
   const setEditTemplateId = useSetRecoilState(editTemplateIdState);
-  const handleAdd = () => {
+  const handleAdd:ReactEventHandler = (e) => {
+    e.stopPropagation();
     setEditTemplateId(uuidv4());
   };
   const theme = useTheme();
@@ -25,16 +27,16 @@ const AddButton = () => {
     </Button>
   ) : (
 
-    <IconButton
+    <Fab
       sx={{
-        position: 'fixed', right: 0, top: -5, opacity: 0.2,
+        position: 'fixed', right: 5, bottom: 60, opacity: 0.5, zIndex: 50,
       }}
       onClick={handleAdd}
       color="primary"
-      size="large"
+      size="small"
     >
-      <AddCircleOutlineIcon />
-    </IconButton>
+      <AddIcon />
+    </Fab>
   );
 };
 
