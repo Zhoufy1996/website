@@ -27,7 +27,7 @@ const AddButton = () => {
 
     <IconButton
       sx={{
-        position: 'absolute', right: -10, top: -5, opacity: 0.2,
+        position: 'fixed', right: 0, top: -5, opacity: 0.2,
       }}
       onClick={handleAdd}
       color="primary"
