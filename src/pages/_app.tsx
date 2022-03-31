@@ -17,6 +17,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>Epic7 Tools</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
+        <meta name="theme-color" content="#317EFB" />
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
