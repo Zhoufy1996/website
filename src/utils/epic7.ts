@@ -229,10 +229,23 @@ export const BrushBookmark = ({
   };
 };
 
-export const getInitialPersonTemplate = ():PersonTemplatePreset => {
+export const getNoRepeatName = () => {
+  const names: string[] = JSON.parse(getLocalStorage('personTemplates') || '[]').map((item: PersonTemplatePreset) => item.name);
+  let index = 1;
+  const getName = () => {
+    return `默认模板-${index}`;
+  };
+  while (names.includes(getName())) {
+    index += 1;
+  }
+
+  return getName();
+};
+
+export const getInitialPersonTemplate = (): PersonTemplatePreset => {
   return {
     id: uuidv4(),
-    name: '默认模板',
+    name: getNoRepeatName(),
     attack: '1000',
     defense: '500',
     life: '5000',
