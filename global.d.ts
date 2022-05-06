@@ -1,7 +1,5 @@
-import deepClone from './components/js/utils/deepClone';
-
 declare global {
   interface Window {
-    deepClone: typeof deepClone
+    __WB_DISABLE_DEV_LOGS: boolean;
   }
 }

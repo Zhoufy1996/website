@@ -1,6 +1,4 @@
-import {
-  Box, Divider,
-} from '@mui/material';
+import { Box, Divider } from '@mui/material';
 import CalcScore from '../components/epic7/equipmentenhance/CalcScore';
 import Equipment from '../components/epic7/equipmentenhance/Equipment';
 import PersonTemplate from '../components/epic7/equipmentenhance/PersonTemplate';

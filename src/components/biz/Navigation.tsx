@@ -1,6 +1,11 @@
 import {
-  BottomNavigation, BottomNavigationAction,
-  Paper, ToggleButton, ToggleButtonGroup, useMediaQuery, useTheme,
+  BottomNavigation,
+  BottomNavigationAction,
+  Paper,
+  ToggleButton,
+  ToggleButtonGroup,
+  useMediaQuery,
+  useTheme,
 } from '@mui/material';
 import { useRouter } from 'next/router';
 import ConstructionIcon from '@mui/icons-material/Construction';
@@ -30,7 +35,11 @@ const Navigation = () => {
   ) : (
     <Paper
       sx={{
-        position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 999,
+        position: 'fixed',
+        bottom: 0,
+        left: 0,
+        right: 0,
+        zIndex: 999,
       }}
       elevation={3}
     >
@@ -48,7 +57,6 @@ const Navigation = () => {
         <BottomNavigationAction value="/templatesetting" label="人物模板" icon={<BoyIcon />} />
       </BottomNavigation>
     </Paper>
-
   );
 };
 

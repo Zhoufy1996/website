@@ -16,7 +16,9 @@ const SelectButton = ({ templateId }: { templateId: string }) => {
       已选用
     </Typography>
   ) : (
-    <Button variant="text" size="small" onClick={handleSelect}>使用</Button>
+    <Button variant="text" size="small" onClick={handleSelect}>
+      使用
+    </Button>
   );
 };
 

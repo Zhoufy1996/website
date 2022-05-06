@@ -1,69 +1,28 @@
-import {
-  Box, Card, CardContent, CardActions, Button, Modal,
-} from '@mui/material';
-import { useEffect, useState } from 'react';
-import { useRecoilState } from 'recoil';
-import {
-  personTemplatePresetArrayState,
-  editTemplateIdState,
-} from '../../../store/epic7/template';
-import { PersonTemplatePreset } from '../../../types/epic7';
-import { getInitialPersonTemplate } from '../../../utils/epic7';
+import { Box, Card, CardContent, CardActions, Button, Modal } from '@mui/material';
+import { useCallback, useState } from 'react';
+import { PersonTemplate } from '../../../types/epic7';
 import CustomTextField from '../../biz/CustomTextFiled';
 
-const EditTemplateModal = () => {
-  const [personTemplatePrestArray, setPersonTemplatePrestArray] = useRecoilState(
-    personTemplatePresetArrayState,
-  );
+interface EditTemplateModalProps {
+  defaultTemplate: PersonTemplate;
+  onOk: (value: PersonTemplate) => void;
+  onClose: () => void;
+}
 
-  const [editTemplateId, setEditTemplateId] = useRecoilState(editTemplateIdState);
+const EditTemplateModal = ({ defaultTemplate, onOk, onClose }: EditTemplateModalProps) => {
+  const [template, setTemplate] = useState<PersonTemplate>(defaultTemplate);
 
-  const [editTemplate, setEditTemplate] = useState<
-  PersonTemplatePreset>(getInitialPersonTemplate());
-
-  useEffect(() => {
-    setEditTemplate(personTemplatePrestArray.find((item) => item.id === editTemplateId)
-    || getInitialPersonTemplate());
-  }, [editTemplateId, personTemplatePrestArray]);
-
-  const handleCancel = () => {
-    setEditTemplateId('');
-  };
-
-  const handleSave = () => {
-    if (personTemplatePrestArray.find((item) => item.id === editTemplate.id)) {
-      setPersonTemplatePrestArray((pre) => {
-        return pre.map((item) => {
-          if (item.id === editTemplate.id) {
-            return {
-              ...editTemplate,
-            };
-          }
-
-          return item;
-        });
-      });
-    } else {
-      setPersonTemplatePrestArray((pre) => {
-        return [
-          ...pre,
-          editTemplate,
-        ];
-      });
-    }
-    handleCancel();
-  };
-
-  const open = editTemplateId !== '';
+  const changeTemplate = useCallback((value: Partial<PersonTemplate>) => {
+    setTemplate((pre) => {
+      return {
+        ...value,
+        ...pre,
+      };
+    });
+  }, []);
 
   return (
-    <Modal
-      open={open}
-      onClose={handleCancel}
-      aria-labelledby="modal-modal-title"
-      aria-describedby="modal-modal-description"
-
-    >
+    <Modal open onClose={onClose} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description">
       <Box
         sx={{
           top: '10%',
@@ -74,7 +33,6 @@ const EditTemplateModal = () => {
           maxWidth: 500,
         }}
       >
-
         <Card>
           <CardContent
             sx={(theme) => {
@@ -91,60 +49,47 @@ const EditTemplateModal = () => {
           >
             <CustomTextField
               type="text"
-              value={editTemplate.name}
+              value={template.name}
               label="名称"
               onChange={(e) => {
-                setEditTemplate((pre) => {
-                  return {
-                    ...pre,
-                    name: e.target.value,
-                  };
+                changeTemplate({
+                  name: e.target.value,
                 });
               }}
             />
 
             <CustomTextField
               type="number"
-              value={editTemplate.attack}
+              value={template.attack}
               label="攻击力"
               onChange={(e) => {
-                setEditTemplate((pre) => {
-                  return {
-                    ...pre,
-                    attack: e.target.value,
-                  };
+                changeTemplate({
+                  attack: e.target.value,
                 });
               }}
             />
 
             <CustomTextField
               type="number"
-              value={editTemplate.defense}
+              value={template.defense}
               label="防御力"
               onChange={(e) => {
-                setEditTemplate((pre) => {
-                  return {
-                    ...pre,
-                    defense: e.target.value,
-                  };
+                changeTemplate({
+                  defense: e.target.value,
                 });
               }}
             />
 
             <CustomTextField
               type="number"
-              value={editTemplate.life}
+              value={template.life}
               label="生命力"
               onChange={(e) => {
-                setEditTemplate((pre) => {
-                  return {
-                    ...pre,
-                    life: e.target.value,
-                  };
+                changeTemplate({
+                  life: e.target.value,
                 });
               }}
             />
-
           </CardContent>
           <CardActions
             sx={{
@@ -153,14 +98,16 @@ const EditTemplateModal = () => {
               justifyContent: 'center',
             }}
           >
-            <Button variant="text" size="small" color="error" onClick={handleCancel}>取消</Button>
-            <Button variant="text" size="small" onClick={handleSave}>保存</Button>
+            <Button variant="text" size="small" color="error" onClick={onClose}>
+              取消
+            </Button>
+            <Button variant="text" size="small" onClick={() => onOk(template)}>
+              保存
+            </Button>
           </CardActions>
         </Card>
-
       </Box>
     </Modal>
-
   );
 };
 

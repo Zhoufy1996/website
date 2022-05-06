@@ -1,7 +1,7 @@
 import { Container } from '@mui/material';
 import Navigation from './Navigation';
 
-const RootContainer = ({ children }: { children:React.ReactNode }) => {
+const RootContainer = ({ children }: { children: React.ReactNode }) => {
   return (
     <Container
       sx={(theme) => ({

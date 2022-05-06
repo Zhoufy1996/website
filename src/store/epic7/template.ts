@@ -1,25 +1,9 @@
-import { atom, selector } from 'recoil';
-import { PersonTemplatePreset } from '../../types/epic7';
+import { atom } from 'recoil';
+import { PersonTemplate } from '../../types/epic7';
+import { localForageEffect } from '../effects/localEffect';
 
-export const personTemplatePresetArrayState = atom<PersonTemplatePreset[]>({
-  key: 'personTemplatePresetArrayState',
+export const personTemplatesState = atom<PersonTemplate[]>({
+  key: 'personTemplatesState',
   default: [],
-});
-
-export const editTemplateIdState = atom<string>({
-  key: 'editTemplateIdState',
-  default: '',
-});
-
-export const searchedTextState = atom<string>({
-  key: 'searchedTextState',
-  default: '',
-});
-
-export const searchedTemplatesState = selector({
-  key: 'searchedTemplateState',
-  get: ({ get }) => {
-    const searchedText = get(searchedTextState);
-    return get(personTemplatePresetArrayState).filter((item) => item.name.includes(searchedText));
-  },
+  effects_UNSTABLE: [localForageEffect('personTemplates')],
 });

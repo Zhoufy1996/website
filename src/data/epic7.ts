@@ -1,11 +1,17 @@
 import {
   EquipmentLevel,
-  EquipmentQuality, EquipmentType, PersonAttributeCode, EquipmentAttributeCode,
+  EquipmentQuality,
+  EquipmentType,
+  PersonAttributeCode,
+  EquipmentAttributeCode,
 } from '../types/epic7';
 
-export const personPropertyOptions: Record<PersonAttributeCode, {
-  label:string
-}> = {
+export const personPropertyOptions: Record<
+  PersonAttributeCode,
+  {
+    label: string;
+  }
+> = {
   attack: {
     label: '攻击力',
   },
@@ -17,10 +23,13 @@ export const personPropertyOptions: Record<PersonAttributeCode, {
   },
 };
 
-export const equipmentAttributeOptions:Record<EquipmentAttributeCode, {
-  label: string;
-  sortNo:number
-}> = {
+export const equipmentAttributeOptions: Record<
+  EquipmentAttributeCode,
+  {
+    label: string;
+    sortNo: number;
+  }
+> = {
   attack_percent: {
     label: '攻击力(%)',
     sortNo: 1,
@@ -72,17 +81,20 @@ export const equipmentQualityOptions: Record<EquipmentQuality, string> = {
   hero: '英雄',
 };
 
-export const equipmentLevelOptions:Record<EquipmentLevel, string> = {
+export const equipmentLevelOptions: Record<EquipmentLevel, string> = {
   88: '88',
   '72-85': '72-85',
   '58-71': '58-71',
 };
 
-export const equipmentTypeOptions: Record<EquipmentType, {
-  label: string;
-  primaryAttritube: EquipmentAttributeCode[];
-  subAttributes: EquipmentAttributeCode[];
-}> = {
+export const equipmentTypeOptions: Record<
+  EquipmentType,
+  {
+    label: string;
+    primaryAttritube: EquipmentAttributeCode[];
+    subAttributes: EquipmentAttributeCode[];
+  }
+> = {
   arms: {
     label: '武器',
     primaryAttritube: ['attack'],
@@ -131,7 +143,16 @@ export const equipmentTypeOptions: Record<EquipmentType, {
   },
   ring: {
     label: '戒指',
-    primaryAttritube: ['attack', 'attack_percent', 'defense', 'defense_percent', 'life', 'life_percent', 'crit_rate', 'crit_injury'],
+    primaryAttritube: [
+      'attack',
+      'attack_percent',
+      'defense',
+      'defense_percent',
+      'life',
+      'life_percent',
+      'crit_rate',
+      'crit_injury',
+    ],
     subAttributes: [
       'attack',
       'attack_percent',
@@ -148,7 +169,16 @@ export const equipmentTypeOptions: Record<EquipmentType, {
   },
   necklace: {
     label: '项链',
-    primaryAttritube: ['attack', 'attack_percent', 'defense', 'defense_percent', 'life', 'life_percent', 'effect_hit', 'effect_resistance'],
+    primaryAttritube: [
+      'attack',
+      'attack_percent',
+      'defense',
+      'defense_percent',
+      'life',
+      'life_percent',
+      'effect_hit',
+      'effect_resistance',
+    ],
     subAttributes: [
       'attack',
       'attack_percent',

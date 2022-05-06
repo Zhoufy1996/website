@@ -1,13 +1,7 @@
 import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
 import Typography from '@mui/material/Typography';
-import {
-  Box, Button, Menu, MenuItem,
-} from '@mui/material';
-import {
-  usePopupState,
-  bindTrigger,
-  bindPopover,
-} from 'material-ui-popup-state/hooks';
+import { Box, Button, Menu, MenuItem } from '@mui/material';
+import { usePopupState, bindTrigger, bindPopover } from 'material-ui-popup-state/hooks';
 import { personTemplateState, selectedTemplateIdState } from '../../../store/epic7/equipment';
 import { PersonAttributeCode } from '../../../types/epic7';
 import { personPropertyOptions } from '../../../data/epic7';
@@ -16,9 +10,7 @@ import CustomTextField from '../../biz/CustomTextFiled';
 
 const PersonTemplate = () => {
   const personTemplate = useRecoilValue(personTemplateState);
-  const [personTemplateArray, setPersonTemplateArray] = useRecoilState(
-    personTemplatePresetArrayState,
-  );
+  const [personTemplateArray, setPersonTemplateArray] = useRecoilState(personTemplatePresetArrayState);
 
   const setSelectedTemplateId = useSetRecoilState(selectedTemplateIdState);
 
@@ -43,13 +35,11 @@ const PersonTemplate = () => {
   return (
     <div>
       <Box>
-        <Typography component="span" variant="h6">人物面板</Typography>
-        <Button {...bindTrigger(popupState)}>
-          {(personTemplate && personTemplate.name) || ''}
-        </Button>
-        <Menu
-          {...bindPopover(popupState)}
-        >
+        <Typography component="span" variant="h6">
+          人物面板
+        </Typography>
+        <Button {...bindTrigger(popupState)}>{(personTemplate && personTemplate.name) || ''}</Button>
+        <Menu {...bindPopover(popupState)}>
           {personTemplateArray.map((template) => {
             return (
               <MenuItem
@@ -66,8 +56,8 @@ const PersonTemplate = () => {
           })}
         </Menu>
       </Box>
-      {
-        personTemplate && Object.entries(personPropertyOptions).map(([code, options]) => {
+      {personTemplate &&
+        Object.entries(personPropertyOptions).map(([code, options]) => {
           return (
             <CustomTextField
               key={code}
@@ -84,9 +74,7 @@ const PersonTemplate = () => {
               }}
             />
           );
-        })
-      }
-
+        })}
     </div>
   );
 };

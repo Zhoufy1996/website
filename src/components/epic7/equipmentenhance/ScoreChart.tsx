@@ -33,7 +33,7 @@ interface ChartDataItem {
 }
 
 interface EquipmentEnhancedChartProps {
-  data: ChartDataItem[]
+  data: ChartDataItem[];
 }
 Chart.register(
   ArcElement,
@@ -58,11 +58,11 @@ Chart.register(
   Filler,
   Legend,
   Title,
-  Tooltip,
+  Tooltip
 );
 /**
-   *
-   */
+ *
+ */
 const EquipmentEnhancedChart = ({ data }: EquipmentEnhancedChartProps) => {
   const ref = useRef(null);
 
@@ -86,17 +86,18 @@ const EquipmentEnhancedChart = ({ data }: EquipmentEnhancedChartProps) => {
         return result;
       };
 
-      const sortData = data.sort((l, r) => {
-        return r.score - l.score;
-      }).map((dataItem) => {
-        return {
-          score: dataItem.score,
-          count: dataItem.count,
-          rate: Number((dataItem.count / countSum).toFixed(2)),
-          accumulatedRate: Number((getGreaterOrEqualCountSum(dataItem.score) / countSum)
-            .toFixed(2)),
-        };
-      });
+      const sortData = data
+        .sort((l, r) => {
+          return r.score - l.score;
+        })
+        .map((dataItem) => {
+          return {
+            score: dataItem.score,
+            count: dataItem.count,
+            rate: Number((dataItem.count / countSum).toFixed(2)),
+            accumulatedRate: Number((getGreaterOrEqualCountSum(dataItem.score) / countSum).toFixed(2)),
+          };
+        });
 
       const chart = new Chart(ref.current, {
         type: 'bar',

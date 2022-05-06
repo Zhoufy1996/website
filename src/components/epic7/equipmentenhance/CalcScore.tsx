@@ -21,24 +21,22 @@ const CalcScore = () => {
   return (
     <Box>
       <Typography variant="h6">结果</Typography>
-      {
-          hasError ? (
-            <div>
-              {
-                  equipmentErrors.map((error) => {
-                    return (
-                      <Typography variant="error" key={error}>{error}</Typography>
-                    );
-                  })
-              }
-            </div>
-          ) : (
-            <Typography variant="body1">
-              分数:
-              {score}
-            </Typography>
-          )
-        }
+      {hasError ? (
+        <div>
+          {equipmentErrors.map((error) => {
+            return (
+              <Typography variant="error" key={error}>
+                {error}
+              </Typography>
+            );
+          })}
+        </div>
+      ) : (
+        <Typography variant="body1">
+          分数:
+          {score}
+        </Typography>
+      )}
     </Box>
   );
 };

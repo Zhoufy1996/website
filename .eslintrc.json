@@ -4,7 +4,8 @@
   "extends": [
     "airbnb",
     "airbnb-typescript",
-    "plugin:react/jsx-runtime"
+    "plugin:react/jsx-runtime",
+    "plugin:prettier/recommended"
   ],
   "plugins": [
     "@typescript-eslint",
@@ -25,7 +26,8 @@
           "TextField",
           "Button",
           "Popover",
-          "Menu"
+          "Menu",
+          "CustomTextField"
         ]
       }
     ],
@@ -52,6 +54,14 @@
     "react-hooks/exhaustive-deps": "warn", // 检查 effect 的依赖
     "semi": "off",
     "@typescript-eslint/semi": [
+      "error"
+    ],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error"
+    ],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": [
       "error"
     ]
   }

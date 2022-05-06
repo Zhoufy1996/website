@@ -1,12 +1,9 @@
-import {
-  CssBaseline,
-} from '@mui/material';
+import { CssBaseline } from '@mui/material';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { RecoilRoot } from 'recoil';
 import { ThemeProvider } from '@emotion/react';
 import theme from '../utils/theme';
-import RecoilEffects from '../components/epic7/RecoilEffects';
 import RootContainer from '../components/biz/RootContainer';
 
 // https://stackoverflow.com/questions/61024356/how-to-use-theme-in-material-ui-with-react-next-js
@@ -25,7 +22,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         <RecoilRoot>
           <RootContainer>
             <Component {...pageProps} />
-            <RecoilEffects />
           </RootContainer>
         </RecoilRoot>
       </ThemeProvider>
