@@ -28,7 +28,7 @@ export interface Equipment {
 export interface PersonTemplate {
   id: string;
   name: string;
-  status: 'draft' | 'published';
+  status: 'draft' | 'published' | 'deleted';
   attack: string;
   defense: string;
   life: string;

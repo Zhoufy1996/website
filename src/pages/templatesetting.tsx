@@ -1,16 +1,20 @@
 import { Grid } from '@mui/material';
-import { useRecoilState } from 'recoil';
+import { useRecoilState, useRecoilValue } from 'recoil';
 
 import { useCallback, useMemo, useState } from 'react';
 import EditTemplateModal from '../components/epic7/templatesetting/EditTemplateModal';
 import TemplatePaper from '../components/epic7/templatesetting/TemplatePaper';
 import ActionButtons from '../components/epic7/templatesetting/ActionButtons';
-import { personTemplatesState } from '../store/epic7/template';
+import { personTemplatesState, selectedTemplateIdState } from '../store/epic7/template';
 import { getInitialPersonTemplate } from '../utils/epic7';
 import { PersonTemplate } from '../types/epic7';
 
 const TemplateSetting = () => {
   const [personTemplates, setPersonTemplates] = useRecoilState(personTemplatesState);
+
+  // recoil数据同步
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const selectedTemplateId = useRecoilValue(selectedTemplateIdState);
 
   const [editId, setEditId] = useState<string>('');
 
@@ -36,7 +40,15 @@ const TemplateSetting = () => {
   const handleDelete = useCallback(
     (id: string) => {
       setPersonTemplates((pre) => {
-        return pre.filter((item) => item.id !== id);
+        return pre.map((item) => {
+          if (item.id === id) {
+            return {
+              ...item,
+              status: 'deleted',
+            };
+          }
+          return item;
+        });
       });
     },
     [setPersonTemplates]
@@ -67,6 +79,7 @@ const TemplateSetting = () => {
           return item;
         });
       });
+      setEditId('');
     },
     [setPersonTemplates]
   );
@@ -75,18 +88,20 @@ const TemplateSetting = () => {
     setEditId('');
   }, []);
 
+  const publishedTemplates = personTemplates.filter((item) => item.status === 'published');
+
   return (
     <>
       <ActionButtons onAdd={handleAdd} />
       <Grid container spacing={1}>
-        {personTemplates.map((template) => {
+        {publishedTemplates.map((template) => {
           return (
             <Grid item key={template.id} xs={12}>
               <TemplatePaper
                 onDelete={handleDelete}
                 onEdit={handleEdit}
                 template={template}
-                showDelete={personTemplates.length > 1}
+                showDelete={publishedTemplates.length > 1 && template.id !== selectedTemplateId}
               />
             </Grid>
           );

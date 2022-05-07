@@ -1,20 +1,15 @@
 import { Box, MenuItem, Typography } from '@mui/material';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { useRecoilState, useRecoilValue } from 'recoil';
 import LoadingButton from '@mui/lab/LoadingButton';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import {
-  chartDataTypeState,
-  enhancedDataState,
-  equipmentErrorsState,
-  equipmentState,
-  personTemplateState,
-} from '../../../store/epic7/equipment';
-import { EquipmentAttributeCode } from '../../../types/epic7';
+import { useRecoilValue } from 'recoil';
+import { Equipment, EquipmentAttributeCode } from '../../../types/epic7';
 import { calcEqipmentScore, enhanceMax } from '../../../utils/epic7';
 import EquipmentEnhancedChart from './ScoreChart';
 import { equipmentAttributeOptions } from '../../../data/epic7';
 import CustomTextField from '../../biz/CustomTextFiled';
+import { equipmentState } from '../../../store/epic7/equipment';
+import { selectedTemplateState } from '../../../store/epic7/template';
 
 interface ChartDataItem {
   score: number;
@@ -23,23 +18,28 @@ interface ChartDataItem {
 
 const SimulateEnhance = () => {
   const [simulateCount, setSimulateCount] = useState<string>('10000');
-  const equipmentErrors = useRecoilValue(equipmentErrorsState);
-  const equipmentValue = useRecoilValue(equipmentState);
-  const personTemplate = useRecoilValue(personTemplateState);
 
-  const [enhancedData, setEnhancedData] = useRecoilState(enhancedDataState);
+  const [enhancedData, setEnhancedData] = useState<Equipment[]>([]);
 
   const [loading, setLoading] = useState<boolean>(false);
 
-  const [chartDataType, setChartDataType] = useRecoilState(chartDataTypeState);
+  const [chartDataType, setChartDataType] = useState('score');
 
   const workerRef = useRef<Worker>();
+
+  const equipmentValue = useRecoilValue(equipmentState);
+
+  const personTemplate = useRecoilValue(selectedTemplateState);
 
   useEffect(() => {
     if (window.Worker) {
       workerRef.current = new Worker(new URL('../../../utils/enhance.worker.ts', import.meta.url));
       workerRef.current.addEventListener('message', (e) => {
         setEnhancedData(e.data);
+        setLoading(false);
+      });
+
+      workerRef.current.addEventListener('error', () => {
         setLoading(false);
       });
 
@@ -51,19 +51,36 @@ const SimulateEnhance = () => {
   }, [setEnhancedData]);
 
   const enhance = () => {
+    const equipment: Equipment = {
+      ...equipmentValue,
+      subAttributes: Object.entries(equipmentValue.subAttributes)
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        .filter(([code, value]) => {
+          return value !== '';
+        })
+        .map(([code, value]) => {
+          return {
+            code: code as EquipmentAttributeCode,
+            value: Number(value),
+          };
+        }),
+    };
     setLoading(true);
     if (workerRef.current) {
       workerRef.current?.postMessage({
-        equipment: equipmentValue,
+        equipment,
         count: simulateCount,
       });
     } else {
-      setEnhancedData(
-        new Array(Number(simulateCount)).fill(1).map(() => {
-          return enhanceMax(equipmentValue);
-        })
-      );
-      setLoading(false);
+      try {
+        setEnhancedData(
+          new Array(Number(simulateCount)).fill(1).map(() => {
+            return enhanceMax(equipment);
+          })
+        );
+      } finally {
+        setLoading(false);
+      }
     }
   };
 
@@ -74,7 +91,7 @@ const SimulateEnhance = () => {
       enhancedData
         .map((item) => {
           return calcEqipmentScore({
-            equipmentProperty: item,
+            subAttributes: Object.fromEntries(item.subAttributes.map((data) => [data.code, data.value])),
             personTemplate,
           });
         })
@@ -152,7 +169,6 @@ const SimulateEnhance = () => {
         <LoadingButton
           loading={loading}
           onClick={enhance}
-          disabled={equipmentErrors.length > 0}
           variant="contained"
           loadingPosition="end"
           endIcon={<ArrowForwardIcon />}

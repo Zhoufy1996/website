@@ -15,8 +15,8 @@ const EditTemplateModal = ({ defaultTemplate, onOk, onClose }: EditTemplateModal
   const changeTemplate = useCallback((value: Partial<PersonTemplate>) => {
     setTemplate((pre) => {
       return {
-        ...value,
         ...pre,
+        ...value,
       };
     });
   }, []);
@@ -52,6 +52,7 @@ const EditTemplateModal = ({ defaultTemplate, onOk, onClose }: EditTemplateModal
               value={template.name}
               label="名称"
               onChange={(e) => {
+                console.log(e.target.value);
                 changeTemplate({
                   name: e.target.value,
                 });

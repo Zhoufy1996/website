@@ -1,6 +1,6 @@
 import { Button, Typography } from '@mui/material';
 import { useRecoilState } from 'recoil';
-import { selectedTemplateIdState } from '../../../store/epic7/equipment';
+import { selectedTemplateIdState } from '../../../store/epic7/template';
 
 const SelectButton = ({ templateId }: { templateId: string }) => {
   const [selectedTemplateId, setSelectedTemplateId] = useRecoilState(selectedTemplateIdState);

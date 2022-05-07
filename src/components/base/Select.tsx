@@ -3,7 +3,7 @@ import CustomTextField from '../biz/CustomTextFiled';
 
 export type SelectProps = TextFieldProps & {
   dataSource: {
-    value: string | number | readonly string[];
+    value: string | number;
     label: string;
   }[];
 };
@@ -13,7 +13,11 @@ const Select = (props: SelectProps) => {
   return (
     <CustomTextField {...rest} select>
       {dataSource.map((item) => {
-        return <MenuItem value={item.value}>{item.label}</MenuItem>;
+        return (
+          <MenuItem key={item.value} value={item.value}>
+            {item.label}
+          </MenuItem>
+        );
       })}
     </CustomTextField>
   );

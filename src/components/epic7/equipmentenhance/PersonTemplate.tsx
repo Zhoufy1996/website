@@ -1,81 +1,48 @@
-import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
+import { useRecoilState, useRecoilValue } from 'recoil';
 import Typography from '@mui/material/Typography';
-import { Box, Button, Menu, MenuItem } from '@mui/material';
+import { Box, Button, Chip, Menu, MenuItem, Stack } from '@mui/material';
 import { usePopupState, bindTrigger, bindPopover } from 'material-ui-popup-state/hooks';
-import { personTemplateState, selectedTemplateIdState } from '../../../store/epic7/equipment';
-import { PersonAttributeCode } from '../../../types/epic7';
-import { personPropertyOptions } from '../../../data/epic7';
-import { personTemplatePresetArrayState } from '../../../store/epic7/template';
-import CustomTextField from '../../biz/CustomTextFiled';
+import { publishedTemplateState, selectedTemplateIdState, selectedTemplateState } from '../../../store/epic7/template';
 
 const PersonTemplate = () => {
-  const personTemplate = useRecoilValue(personTemplateState);
-  const [personTemplateArray, setPersonTemplateArray] = useRecoilState(personTemplatePresetArrayState);
-
-  const setSelectedTemplateId = useSetRecoilState(selectedTemplateIdState);
+  const personTemplates = useRecoilValue(publishedTemplateState);
+  const [selectedTemplateId, setSelectedTemplateId] = useRecoilState(selectedTemplateIdState);
 
   const popupState = usePopupState({
     variant: 'popover',
     popupId: 'template-select',
   });
 
-  const setPersonTemplate = (code: PersonAttributeCode, value: string) => {
-    setPersonTemplateArray((pre) => {
-      return pre.map((item) => {
-        if (item.id === personTemplate?.id) {
-          return {
-            ...item,
-            [code]: value,
-          };
-        }
-        return item;
-      });
-    });
-  };
+  const selectedTemplate = useRecoilValue(selectedTemplateState);
+
   return (
-    <div>
-      <Box>
-        <Typography component="span" variant="h6">
-          人物面板
-        </Typography>
-        <Button {...bindTrigger(popupState)}>{(personTemplate && personTemplate.name) || ''}</Button>
-        <Menu {...bindPopover(popupState)}>
-          {personTemplateArray.map((template) => {
-            return (
-              <MenuItem
-                selected={template.id === (personTemplate && personTemplate.id)}
-                key={template.id}
-                onClick={() => {
-                  setSelectedTemplateId(template.id);
-                  popupState.close();
-                }}
-              >
-                {template.name}
-              </MenuItem>
-            );
-          })}
-        </Menu>
-      </Box>
-      {personTemplate &&
-        Object.entries(personPropertyOptions).map(([code, options]) => {
+    <Box>
+      <Typography component="span" variant="h6">
+        人物面板
+      </Typography>
+      <Button {...bindTrigger(popupState)}>{(selectedTemplate && selectedTemplate.name) || ''}</Button>
+      <Stack direction="row" spacing={1}>
+        <Chip color="success" variant="outlined" label={`攻: ${selectedTemplate ? selectedTemplate.attack : ''}`} />
+        <Chip color="secondary" variant="outlined" label={`防: ${selectedTemplate ? selectedTemplate.defense : ''}`} />
+        <Chip color="error" variant="outlined" label={`生: ${selectedTemplate ? selectedTemplate.life : ''}`} />
+      </Stack>
+      <Menu {...bindPopover(popupState)}>
+        {personTemplates.map((template) => {
           return (
-            <CustomTextField
-              key={code}
-              id={code}
-              label={options.label}
-              type="number"
-              variant="outlined"
-              value={personTemplate[code as PersonAttributeCode]}
-              inputProps={{
-                min: 0,
+            <MenuItem
+              selected={template.id === selectedTemplateId}
+              key={template.id}
+              onClick={() => {
+                setSelectedTemplateId(template.id);
+                popupState.close();
               }}
-              onChange={(e) => {
-                setPersonTemplate(code as PersonAttributeCode, e.target.value);
-              }}
-            />
+            >
+              {template.name}
+            </MenuItem>
           );
         })}
-    </div>
+      </Menu>
+    </Box>
   );
 };
 

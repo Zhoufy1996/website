@@ -138,6 +138,7 @@ const EquipmentEnhancedChart = ({ data }: EquipmentEnhancedChartProps) => {
     }
     return () => {};
   }, [data]);
+
   return (
     <Box
       sx={{

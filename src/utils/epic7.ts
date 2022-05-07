@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import { Equipment, EquipmentAttributeCode, EquipmentSubAttributeItem, PersonTemplate } from '../types/epic7';
-import { randomSelect } from './helper';
+import { calcSum, randomSelect } from './helper';
 import enhancedProbabilityData from '../data/epci7_probability_data.json';
 
 export const propertyArray: EquipmentAttributeCode[] = [
@@ -18,7 +18,7 @@ export const propertyArray: EquipmentAttributeCode[] = [
 ];
 
 interface CalcEqipmentScore {
-  (props: { equipmentProperty: Equipment; personTemplate?: PersonTemplate }): number;
+  (props: { subAttributes: Partial<Record<EquipmentAttributeCode, ''>>; personTemplate?: PersonTemplate }): number;
 }
 
 /**
@@ -26,7 +26,7 @@ interface CalcEqipmentScore {
  * @param {equipmentProperty: 装备属性, personTemplate: 人物属性模板}
  * @returns 装备分数
  */
-export const calcEqipmentScore: CalcEqipmentScore = ({ equipmentProperty, personTemplate }) => {
+export const calcEqipmentScore: CalcEqipmentScore = ({ subAttributes, personTemplate }) => {
   type ScoreCalcObj = Record<EquipmentAttributeCode, (value: number) => number>;
   const scoreCalcObj: ScoreCalcObj = {
     attack: (value) => (personTemplate && personTemplate.attack ? (value * 100) / Number(personTemplate.attack) : 0),
@@ -43,14 +43,11 @@ export const calcEqipmentScore: CalcEqipmentScore = ({ equipmentProperty, person
   };
 
   return Number(
-    equipmentProperty.subAttributes
-      .map((property) => {
-        return scoreCalcObj[property.code](property.value);
+    calcSum(
+      ...Object.entries(subAttributes).map(([attributeCode, value]) => {
+        return scoreCalcObj[attributeCode as EquipmentAttributeCode](Number(value) || 0);
       })
-      .reduce((acc, cur) => {
-        return acc + cur;
-      }, 0)
-      .toFixed(1)
+    ).toFixed(1)
   );
 };
 
@@ -117,7 +114,6 @@ export const enhanceOnce = (equipment: Equipment): Equipment => {
   }
 
   enhanceItem = getEnhanceItem();
-
   return {
     ...equipment,
     enhancedLevel: equipment.enhancedLevel + 3,
