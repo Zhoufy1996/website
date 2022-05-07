@@ -5,6 +5,9 @@ import { RecoilRoot } from 'recoil';
 import { ThemeProvider } from '@emotion/react';
 import theme from '../utils/theme';
 import RootContainer from '../components/biz/RootContainer';
+import { initializeOCR } from '../utils/OCR';
+
+initializeOCR('chi_tra');
 
 // https://stackoverflow.com/questions/61024356/how-to-use-theme-in-material-ui-with-react-next-js
 function MyApp({ Component, pageProps }: AppProps) {

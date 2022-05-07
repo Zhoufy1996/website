@@ -8,6 +8,8 @@ import ActionButtons from '../components/epic7/templatesetting/ActionButtons';
 import { personTemplatesState, selectedTemplateIdState } from '../store/epic7/template';
 import { getInitialPersonTemplate } from '../utils/epic7';
 import { PersonTemplate } from '../types/epic7';
+import { importFile } from '../utils/file';
+import { handleOCR } from '../utils/OCR';
 
 const TemplateSetting = () => {
   const [personTemplates, setPersonTemplates] = useRecoilState(personTemplatesState);
@@ -90,9 +92,20 @@ const TemplateSetting = () => {
 
   const publishedTemplates = personTemplates.filter((item) => item.status === 'published');
 
+  const handleUpload = async () => {
+    const file = await importFile('.png, .jpg, .bmp, .pbm');
+    const reader = new FileReader();
+    reader.onload = async () => {
+      console.log(reader.result);
+      const text = await handleOCR(reader.result as string);
+      console.log(text);
+    };
+    reader.readAsDataURL(file as Blob);
+  };
+
   return (
     <>
-      <ActionButtons onAdd={handleAdd} />
+      <ActionButtons onAdd={handleAdd} onUpload={handleUpload} />
       <Grid container spacing={1}>
         {publishedTemplates.map((template) => {
           return (

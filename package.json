@@ -25,11 +25,13 @@
     "react-dom": "17.0.2",
     "react-markdown": "^8.0.0",
     "recoil": "^0.6.1",
+    "tesseract.js": "^2.1.5",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@types/node": "17.0.21",
     "@types/react": "17.0.39",
+    "@types/tesseract.js": "^2.0.0",
     "@types/uuid": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.13.0",

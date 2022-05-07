@@ -1,12 +1,14 @@
 import { useTheme, Button, SpeedDial, SpeedDialAction, useMediaQuery } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
+import FileUploadOutlinedIcon from '@mui/icons-material/FileUploadOutlined';
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 
 interface ActionButtonProps {
   onAdd: () => void;
+  onUpload: () => void;
 }
 
-const ActionButtons = ({ onAdd }: ActionButtonProps) => {
+const ActionButtons = ({ onAdd, onUpload }: ActionButtonProps) => {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up('sm'));
 
@@ -34,6 +36,7 @@ const ActionButtons = ({ onAdd }: ActionButtonProps) => {
       icon={<SpeedDialIcon />}
     >
       <SpeedDialAction key="add" icon={<AddIcon />} tooltipTitle="添加" onClick={onAdd} />
+      <SpeedDialAction key="upload" icon={<FileUploadOutlinedIcon />} tooltipTitle="上传" onClick={onUpload} />
     </SpeedDial>
   );
 };
